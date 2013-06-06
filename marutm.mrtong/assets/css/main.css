@@ -1,0 +1,83 @@
+.wrapper {
+	margin: 0 auto;
+	width: 1100px;
+	height: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.left {
+	width: 200px;
+	height: 100%;
+	min-height: 200px;
+	background-color: white;
+	float: left;
+	padding: 10px;
+}
+.main {
+	width: 860px;
+	height: 100%;
+	min-height: 200px;
+	float: right;
+	padding: 10px;
+}
+
+.main li {
+	font-size: 13px;
+}
+
+.show-user {
+	font-size: 12px;
+	margin-top: 20px;
+	padding: 10px;
+	float: left;
+}
+table {
+	width:860px;
+}
+th {
+	height: 20px;
+	padding: 5px;
+	margin: 0;
+}
+td {
+	text-align:center;
+}
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+	text-align: center;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000099;
+	
+	font-weight: bold;
+	background-color: #000099;
+	color: #FFF;
+}
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #EEE;
+
+	color: #DDD;
+}
+textarea {
+	width: 200px;
+	height: 80px;
+}

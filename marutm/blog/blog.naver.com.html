@@ -1,0 +1,818 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>네이버 블로그 :: 누구나 쉽게 표현하는 세상</title>
+	<link rel="stylesheet" type="text/css" href="http://t.static.blog.naver.net/section/versioning/SectionSubSearch-564403.css" charset="UTF-8" />
+	
+
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/section/versioning/SectionHeader-1185565.js" charset="UTF-8"></script>
+<script type="text/javascript" >
+new InstallBlogAppPush();
+</script>
+	
+	<script type="text/javascript">
+		window.onload = function () {
+		};
+
+		function changeOrder(opt) {
+			document.forms['blogSearchForm']['option.orderBy'].value = opt;
+			getList();
+		}
+
+		function hotSearch(keyword) {
+			document.forms['blogSearchForm']['option.keyword'].value = keyword;
+			getList();
+		}
+	</script>
+	<script type="text/javascript" src="http://t.static.blog.naver.net/section/versioning/js/lib/selectbox-122601.js"></script>
+
+
+	<script type="text/javascript">
+
+		//실제로 검색을 했을 경우(==검색 버튼을 누르거나 입력하고 엔터를 친 경우)에 호출되는 메소드
+		function doSearch() {
+			var frm = $('blogSearchForm');
+
+			//검색 키워드를 바꾼다.
+			document.getElementById("originalKeyword").value = frm['option.keyword'].value;
+			getList();
+		}
+
+		function getList() {
+			var frm = $('blogSearchForm');
+			var type = frm['type'].value;
+			var page = frm['option.page.currentPage'].value;
+			var keyword = document.getElementById("originalKeyword").value;
+			var orderBy = "";
+			var term = "";
+			var startDate = "";
+			var endDate = "";
+			var keywordSeq = "";
+			try{
+				orderBy = frm['option.orderBy'].value;
+			}catch(e){}
+			try{
+				if(type == 'post' && frm['term'] != undefined) {
+					term = frm['term'].value;
+					if(term == 'undefined'){
+						term = 'period';
+					}
+				}
+			}catch(e){ alert(e) }
+			try{
+				startDate = frm['option.startDate'].value;
+			}catch(e){}
+			try{
+				endDate = frm['option.endDate'].value;
+			}catch(e){}
+			try{
+				keywordSeq = frm['option.keywordSeq'].value;
+			}catch(e){}
+
+			var action = frm.action;
+
+			var url = action + "?type="+type+"&option.keyword="+encodeURIComponent(keyword)+"&term="+term
+					+"&option.startDate="+startDate+"&option.endDate="+endDate+"&option.page.currentPage="+page;
+			if(orderBy.length > 0)
+				url += "&option.orderBy="+orderBy;
+			if(keywordSeq.length > 0)
+				url += "&option.keywordSeq="+keywordSeq;
+
+			location.href = url;
+		}
+
+		function goPage(page) {
+			var frm = $('blogSearchForm');
+			frm['option.page.currentPage'].value = page;
+			getList();
+		}
+
+		function goOtherTab(type) {
+			var frm = $('blogSearchForm');
+			frm['type'].value = type;
+			try{
+				frm['option.orderBy'].value = "";
+			}catch(e){}
+			getList();
+		}
+
+		function searchByEnter(event) {
+			if(event.keyCode==13) {
+				//IE일때만 실행 (firefox인 경우 그냥 실행됨)
+				var info = $Agent().navigator();
+				if (info.ie) {
+	    			//alert("사용하시는 IE의 버전은 "+info.version+" 입니다.");
+					doSearch();
+				}
+			}
+		}
+
+		function removeSpaces(str){
+			var repl = "";
+			for(i = 0; i < str.length; i++) {
+				s = str.charAt(i);
+				if(s == ' ')
+					continue;
+				else
+					repl += s;
+			}
+			return repl;
+		}
+
+
+	</script>
+  </head>
+
+
+<body id="index">
+<input type="hidden" id="originalKeyword" value="결혼"/>
+<div id="wrap">
+
+
+
+
+
+
+
+<!-- [D] 크롬에서 스킵네비게이션 작동을 위해서 스크립트가 필요합니다. -->
+<a href="#gnbMenu" onclick="var t=document.getElementById('gnbMenu');t.tabIndex=-1;t.focus();return false;" class="skip">메뉴 바로가기</a>
+<a href="#topic_keyword_top_left" onclick="var t=document.getElementById('topic_keyword_top_left');t.tabIndex=-1;t.focus();return false;" class="skip">본문 바로가기</a>
+
+<div id="header">
+	<div id="gnb" class="login_area">
+		
+	</div>
+
+	<div id="snb_wrap">
+		<h1> <a href="http://www.naver.com" class="sp_common logo"><span class="blind">NAVER</span></a> <a href="/SectionMain.nhn" class="sp_common blog"><span class="blind">블로그</span></a> </h1>
+
+		<form onsubmit="return false;">
+		<fieldset>
+		<legend>검색</legend>
+			<div class="snb_search_box">
+				<div class="snb_search_box_sub">
+					<!-- Search Option -->
+					<div id="searchOption" class="search_option_box off" onmouseup="showSearchOption();">
+						<div class="search_option">
+							<input type="radio" name="rdo_type2" id="selectedType" class="rdo_type" value="post" />
+							<label for="rdo_type" id="selectedOption">
+							
+								
+								블로그
+								
+							
+							</label>
+						</div>
+						<ul id="searchOptionLayer" class="search_option_layer">
+							<li><input type="radio" name="rdo_type2" id="rdoPost" class="rdo_type" /><label for="rdo_type1" id="post" class="" onMouseOver="this.className='bgcolor';" onMouseOut="this.className='';">포스트</label></li>
+							<li><input type="radio" name="rdo_type2" id="rdoBlog" class="rdo_type" /><label for="rdo_type3" id="blog" class="" onMouseOver="this.className='bgcolor';" onMouseOut="this.className='';">블로그</label></li>
+							<li><input type="radio" name="rdo_type2" id="rdoId" class="rdo_type" /><label for="rdo_type4" id="id" class="" onMouseOver="this.className='bgcolor';" onMouseOut="this.className='';">별명&middot;아이디</label></li>
+						</ul>
+					</div>
+					<!-- //Search Option -->
+					<input type="text" title="검색" id="gnb.keyword" accesskey="s" value="결혼" class="snb_search_text" onfocus="javascript:focusOnGreenWindow();" onkeydown="javascript:searchByEnterGNB(event);" style="ime-mode:active;" />
+				</div>
+				<input type="image" id="blogSearch" src="http://blogimgs.naver.net/section/btn_srch2.gif" alt="검색" class="btn_search" onclick="javascript:clickcr(this,'lnb.search','','',event);javascript:goSearchFromGNB();" />
+				<a href="" id="gnbSearch" onclick="javascript:gnbSearchNaver();" target="_blank" class="btn_search"><span class="sp_etcetera"><em class="blind">통합검색</em></span></a>
+				<input type="hidden" name="type" id="type" value="post">
+			</div>
+		</fieldset>
+		</form>
+
+		<!-- 블로그앱 간편설치 -->
+		<div class="app_mobile">
+			<div class="app_tx">
+				<a href="#" class="app_set _installBlogAppPush _param(true|Gnb) _stopIntallAppEvent" onclick="clickcr(this,'STA.app','','',event);"><strong>블로그앱</strong> 간편설치하기</a>
+			</div>
+			<div id="installBlogAppPushGnb" class="ly_app_set" style="display: none">
+				<p class="set_tt">
+					<strong>블로그앱</strong> 설치 URL을<br>네이버앱 알림으로 전송했습니다.
+				</p>
+				<p class="set_tx">
+					알림이 오지 않는다면,<br>네이버앱을 최신버전으로 업데이트 하거나,<br>로그아웃상태인지 확인해주세요
+				</p>
+				<div class="ly_app_btn">
+					<a href="#" class="btn_send _installBlogAppPushRetry _param(true|Gnb) _stopIntallAppEvent" onclick="clickcr(this,'STA.app','','',event);">다시 보내기</a> <a href="#" class="btn_cfm _installBlogAppPushClose _param(true|Gnb) _stopIntallAppEvent">확인</a>
+				</div>
+				<a href="#" class="ly_clse _installBlogAppPushClose _param(true|Gnb) _stopIntallAppEvent">닫기</a>
+			</div>
+		</div>
+		<!--// 블로그앱 간편설치 -->
+
+		<div id="plus_mobile" class="plus_mobile"> <a href="#" class="sp_etcetera h_mobie"><span class="blind">+mobile</span></a>
+			<div id="ly_mobile" class="ly_mobile" style="display:none;right:0;top:23px">
+				<p>모바일에 최적화된 <strong>블로그</strong>를<br>체험하세요</p>
+				<dl>
+				<dt>모바일 웹</dt>
+				<dd>
+					<a target="_blank" href="http://mobile.naver.com/mobileweb/blog.nhn" class="btn1 _introWeb" onClick="clickcr(this,'STA*m.web','','',event);">소개</a>
+					<a target="_blank" href="http://section.blog.naver.com/popup/pop_mobile_blog.jsp" class="btn2 _expWeb _returnFalse" onClick="clickcr(this,'STA*m.try','','',event);return false;">체험하기</a>
+				</dd>
+				<dt>모바일 애플리케이션</dt>
+				<dd><a target="_blank" href="http://mobile.naver.com/application/blog.nhn" class="btn1 _introApp" onClick="clickcr(this,'STA*m.app','','',event);">소개</a></dd>
+				</dl>
+				<div><a target="_blank" href="http://webmsg.naver.com/popup_send/send_url.php?code=blog&SMSID=ESW00017&MMSID=EMG00005" onClick="clickcr(this,'STA*m.sms','','',event);return false;" class="_sendSMS _returnFalse">URL 문자 전송</a></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="lnb_menu">
+		<ul class="menu" id="gnbMenu">
+			<li><a href="/SectionMain.nhn" class="sp_common home_on _eachMenu" onclick="clickcr(this,'lnb.home','','',event)"><strong class="blind">블로그 홈</strong></a></li>
+			<li>
+				<span>모두의 블로그 하위메뉴 시작</span>
+				<ul>
+					<li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=movie" id="topMenu1" class="sp_common g_menu1 _mouseOver _mouseOut _click _param(g_menu1|g_menu1_on) _eachMenu" onclick="clickcr(this,'lnb.movie','','1',event);"><span class="blind">영화</span></a></li>
+                    <li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=book" id="topMenu2" class="sp_common g_menu2 _mouseOver _mouseOut _click _param(g_menu2|g_menu2_on) _eachMenu" onclick="clickcr(this,'lnb.book','','2',event);"><span class="blind">책</span></a></li>
+                    <li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=recipe" id="topMenu3" class="sp_common g_menu3 _mouseOver _mouseOut _click _param(g_menu3|g_menu3_on) _eachMenu" onclick="clickcr(this,'lnb.cook','','3',event);"><span class="blind">요리</span></a></li>
+                    <li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=domestic" id="topMenu4" class="sp_common g_menu4 _mouseOver _mouseOut _click _param(g_menu4|g_menu4_on) _eachMenu" onclick="clickcr(this,'lnb.domestic','','4',event);"><span class="blind">국내여행</span></a></li>
+                    <li><a href="/sub/PostListByDirectory.nhn?option.directoryAlias=it" id="topMenu5" class="sp_common g_menu5 _mouseOver _mouseOut _click _param(g_menu5|g_menu5_on) _eachMenu" onclick="clickcr(this,'lnb.computer','','6',event);"><span class="blind">IT</span></a></li>
+					<li>
+						<a href="#" id="topMenu6" onclick="DirectoryList.toggleLayer('Gnb');clickcr(this,'lnb.alltheme','','',event);return false;" class="sp_common g_menu6 _mouseOver _mouseOut _eachMenu _param(g_menu6|g_menu6_on)"><span class="blind">모든메뉴</span></a>
+						<div class="all_theme" id="all_theme_layer_gnb" style="display:none"><div id="all_theme_list_gnb" class="sub_all_theme"></div></div>
+					</li>
+				</ul>
+			</li>
+			<li><a href="/sub/PowerBlogAsEvent.nhn" id="topMenu7" class="sp_common g_menu7 _mouseOver _mouseOut _click _param(g_menu7|g_menu7_on) _eachMenu" onclick="clickcr(this,'lnb.powerblog','','',event);"><span class="blind">파워 블로그</span></a></li>
+            <li><a href="/talentdonation/TalentDonationView.nhn" id="topMenu8" class="sp_common g_menu8 _mouseOver _mouseOut _click _param(g_menu8|g_menu8_on) _eachMenu" onclick="clickcr(this,'lnb.donator','','',event);"><span class="blind">재능기부 블로그</span></a></li>
+            <li>
+            	<a href="/challengeprogram/ChallengeProgramSelector.nhn" id="topMenu9" class="sp_common g_menu9 _mouseOver _mouseOut _click _param(g_menu9|g_menu9_on) _eachMenu _showChallengeLayer" onclick="clickcr(this,'lnb.challenge','','',event);"><span class="blind">챌린지 프로그램</span></a>
+				
+				<div class="ly_chag _showChallengeLayer" id="challengeTypeSelectLayer" style="display:none">
+					<div class="chag_iner">
+					
+					
+					
+					<p ><a href="/challengeprogram/TodayBookView.nhn" class="book">블로거의 오늘의 책</a></p>
+					<p ><a href="/challengeprogram/SerialMovieMain.nhn" class="movie">블로거, 영화를 말하다</a></p>
+					<p ><a href="/challengeprogram/TrackingWidgetMain.nhn" class="widget">목표달성! 미션위젯!</a></p>
+					</div>
+				</div>
+				
+            </li>
+		</ul>
+		
+		<ul class="menu2">
+			<li><a href="http://apps.naver.com" target="_blank" class="sp_common g_menu2_1"><span class="blind">소셜앱스</span></a></li>
+            <li><a href="http://item.naver.com" class="sp_common g_menu2_2"><span class="blind">아이템팩토리</span></a></li>
+		</ul>
+		
+		
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+var nsc="blog.main"; 							
+var gnb_service="section.blog"; 				
+var gnb_logout="http://section.blog.naver.com"; 
+var gnb_template="gnb_community_utf8";			
+var gnb_searchbox="off"; 						
+var gnb_shortnick="off";						
+
+
+
+$Fn(function changeSearchOption(e) {
+	var oElEvent = e.element;
+	var optionValue = oElEvent.id;
+
+	if(optionValue != "searchOptionLayer") {
+		var optionText = $Element(oElEvent).text();
+
+		$('selectedType').value = optionValue;
+		$('selectedOption').firstChild.nodeValue = optionText;
+		$('type').value = optionValue;
+
+		$('gnb.keyword').focus();
+	}
+}).attach($("searchOptionLayer"),"click");
+
+$Fn(function(){
+	getGNB();
+}).attach(window, "load");
+</script>
+
+
+<script charset="utf-8" type="text/javascript" src="http://static.gn.naver.net/template/gnb_community_utf8.nhn?20130317"></script>
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/section/versioning/SectionGNB-739048.js" charset="UTF-8"></script>
+
+<hr />
+
+	<div id="sub_container">
+		<div id="content">
+			
+
+
+
+
+
+
+
+<form name="blogSearchForm" id="blogSearchForm" method="post" action="/sub/SearchBlog.nhn" onsubmit="return false">
+<input type="hidden" name="option.page.currentPage" value="1"/>
+<input type="hidden" name="option.orderBy" value="sim"/>
+
+	<!-- 2009.07.29 박정재. 검색창 제거로 히든처리. 삭제하면 스크립트 에러 -->
+	<div class="search_spot" style="display:none">
+		<fieldset>
+			<legend>검색</legend>
+
+			<div class="skin" style="float:left;width: 100px;padding-right:5px;">
+				<div class="selectbox-applied selectbox(12111846686871384)" id="search_type">
+						<select id="type" name="type"  style="position: absolute; visibility: hidden; display: none;" class="selectbox-source">
+							<option value="post" >포스트</option>
+							<option value="blog" selected>블로그</option>
+							<option value="id" >별명&middot;아이디</option>
+						</select>
+					<div class="selectbox-box">
+						<span class="selectbox-label"></span>
+					</div>
+					<div class="selectbox-layer skin" id="order_layer">
+						<ul class="selectbox-list"></ul>
+					</div>
+
+				</div>
+			</div>
+			<script type="text/javascript">
+				$('type').value = 'blog';
+			</script>
+
+			<input type="text" name="option.keyword" value="결혼" onkeydown="searchByEnter(event);"
+					style="width:245px" name="" title="검색" class="inp01" />
+			<input type="image" src="http://blogimgs.naver.net/section/btn_search_2.gif" name="" alt="검색" onclick="doSearch();"/>
+		</fieldset>
+	</div>
+	<!-- // 검색창 제거 -->
+	<hr />
+
+	<!-- 090805 | 수정 -->
+	<div class="list_area search_wrap">
+	<!-- //090805 | 수정 -->
+		<ul class="tab_select_list">
+		<li><a href="#1" onclick="goOtherTab('post')">포스트</a></li>
+		<li class="on"><a href="#1"><strong>블로그</strong></a></li>
+		<li><a href="#1" onclick="goOtherTab('id')">별명&middot;아이디</a></li>
+		</ul>
+		
+		<h3 class="no_view">;블로그 검색결과</h3>
+
+		<p class="several_post"> 블로그 검색결과 <em>18123건</em>&nbsp;</p>
+
+		<ul class="tab_postalign_2">
+			<li class="first  on"><a href="#" onclick="changeOrder('sim')">정확도</a></li>
+			<li class="" ><a href="#" onclick="changeOrder('recentdate')">최근작성일</a></li>
+		</ul>
+
+	<!-- 공통 청유어 안내 가이드 & 공통 검색결과 없음 ui -->
+	
+
+
+
+	<!-- 가이드 문구-->
+
+	
+
+	<!--// 가이드 문구-->
+	<!-- 검색결과없음 -->
+
+	
+	
+	
+
+	<!-- // 공통 청유어 안내 가이드 & 공통 검색결과 없음 ui -->
+			
+		<ul class="list_type_1 search_blog_list">
+	
+	
+			<li>
+				<h5><a href="http://blog.naver.com/thddlf30" target="_blank">♡ <b>결혼</b> 12년차 부부의 날마다 로맨스 ♡</a></h5>
+					<div class="list_content">날마다 소풍같은 이야기 ♡ 12년째 신혼부부 놀이중 ♬ 광주광역시 일곡동에 사는 한량아줌마에요 ㅋㅋ 네이버에서 : [ 딸기공주 ] 를 검색해 주세요 ☆</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/thddlf30?Redirect=Category&categoryNo=90" target="_blank">[♡ 아삭아삭 샐러드 ♡ 깔끔한 디저트 ♡ 밥도둑 찜/조림 ♡ 뜨끈한 국/찌개/탕 ♡ 고소한 전/튀김 ♡ 맛있는 집들이음식 ♡ 출출할 때 간식 ♡ 매일 밥반찬 ♡ 김밥/초밥/주먹밥 ♡ 푸짐한 일품요리 ♡ 사랑 듬뿍 도시락 + 톡톡 튀는 아이디어 밥상 + 메인에 떴어요 + 감사합니다 ♡ + 날마다 카카오스토리 ♡ ♡ 건강한 효소만들기 + 12' 여름휴가(4박5일) ♡ 냠냠 샌드위치 + ㅋㅋㅋㅋㅋ ♬ + 궁뎅이/앵두/통닭이 + 날마다 소풍가기 ♡ + 08' 여름휴가(2박3일) ♡ 브런치 + 날마다 행복하기 ♡ + 10' 여름휴가(4박5일) + MAIN ※ 이웃님들 이벤트 후기 + Duck Story(오리) + 블라블라블라 + 필립스 척척 비법 레시피 + 【 광주맛집/카페 】 + 【 이벤트/체험단 】 + 09' 여름휴가(4박5일) + 수산물요리100선 + 맛있는 리뷰(식품) + 멋있는 리뷰(제품) + 개똥이 ♡ 소똥이 + 깍두기 ♡ 매생이 + 유용한 생활정보 + 날마다 놀러가기 ♡ + 【 전라도맛집/카페 】 ♡ 짝퉁 베이킹]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/thddlf30" target="_blank">딸기공주 이은미</a>
+				</div>
+			</li>
+	
+			<li>
+				<h5><a href="http://blog.naver.com/evilkid2000" target="_blank">혼수가전닷컴과 함께 <b>결혼</b>,신혼을 준비 하세요 !!</a></h5>
+					<div class="list_content">거품없는 실속 혼수가전 준비의 모든 것! 가전마니아 혼수가전 판매를 위한 곳이 아닌, 고객님을 위한 라이프전자! 가전마니아와 라이프전자가 혼수가전 전문 지식과 노하우로 실속있게 구매할수 있도록 도와드립니다.</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/evilkid2000?Redirect=Category&categoryNo=97" target="_blank">[게시판 ????? 쿠쿠밥솥 대우냉장고/세탁기 딤채 김치냉장고 LG오븐레지 LG 청소기 LG 에어컨 LG 김치 냉장고 LG 세탁기 LG 냉장고 LG 홈씨어터 LG PDP TV LG&#160;LED LG lcd 삼성 오븐레지 삼성 청소기 삼성 에어컨 삼성 김치 냉장고 삼성 세탁기 삼성 냉장고 삼성 홈씨어터 삼성 PDP TV 삼성 LED 삼성&#160;lCD 블로그의 흑역사 혼수가전 구입 키포인트 ! 공지 日常茶飯事 혼수가전 이용후기 이웃님들 글 스크랩 게시판 게시판]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/evilkid2000" target="_blank">혼수가전마스터</a>
+				</div>
+			</li>
+	
+			<li>
+				<h5><a href="http://blog.naver.com/echorus21" target="_blank">만남에서 <b>결혼</b>까지...^^</a></h5>
+					<div class="list_content">안녕하세요^-^ 에코러스 오부장입니다..</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/echorus21?Redirect=Category&categoryNo=7" target="_blank">[삶의 향기 성격분석 사랑, 그 뒷이야기 향이 있는 방 연애에 관하여 <b>결혼</b>에 관하여 낙서장]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/echorus21" target="_blank">뿌땅</a>
+				</div>
+			</li>
+	
+			<li>
+				<h5><a href="http://blog.naver.com/weddingkgm" target="_blank">&quot;꽃가마 <b>결혼</b>&quot;의 블로그</a></h5>
+					<div class="list_content">꽃가마 <b>결혼</b>을 통한 행복한 <b>결혼</b>과 따뜻한 선진 지식기반사회의 네트워크가 되기 위하여 !!!</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/weddingkgm?Redirect=Category&categoryNo=9" target="_blank">[信仰믿음干證모임 健康병원醫學Sports 成功 經營기업CEO 유 머 ♣예루살렘Jerusalem † 神學과敎理연구 사회環境福祉교통 經濟취업創業영업 ◆ World History 聖經말씀敎會 聖經인물宣敎師 敎育학습科學心理 Mesopota.西南Asia 法曺세무保險제도 偉人*人物 中國동Asia歷史관광 ♣요단계곡*海岸평야 이집트*Africa歷觀 터키 지역歷觀 ♣南部 이스라엘 Rome 이태리 이스라엘 歷觀 ♣中部 이스라엘 사람들逆境克伏國際 유럽*그리스歷觀 海外여행絶景*국제 ♣北部Galilee이스라엘 인사結婚준비行事 文化音樂그림讀書 패션뷰티美容마켓 생활家族민속製品 예쁜꽃*식물自然 風景여행韓國史 不動産금융富주식 요르단·시리아中東 Pc디지털It*디카 칼럼Opinion銘言 대화話術처세演說 聖地순례[종합]]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/weddingkgm" target="_blank">꽃가마연구원1</a>
+				</div>
+			</li>
+	
+			<li>
+				<h5><a href="http://blog.naver.com/pjk8280" target="_blank"><b>결혼</b>정보회사 옹달샘</a></h5>
+					<div class="list_content">2003년 설립. 가입비 20만원, 주선비 5만원. 성사비 없음. <b>결혼</b>할때 까지 만남주선 공무원, 공기업, 교사, 대기업,간호사, 약사등 남자: 4년제대졸, 172cm, 27세 여자: 2년제대졸, 158cm, 24세 (남자-전문대졸업, 여자-고졸은 프로필심사후 가입가능) 홈피: www.love-119.com 상담 ****-****</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/pjk8280?Redirect=Category&categoryNo=87" target="_blank">[기타 옹달샘 칼럼 알면도움이되는상식 지식in 질문과 답변 재미있는 이야기 커플 이야기 <b>결혼</b>정보회사 <b>결혼</b>식 준비 재혼에 대한 자료 촌수 보는 법 성 게시판(기타) 커플 매니져 유머 연애심리 최근의 뉴스 남자에 관한 모든것 여자에 관한 모든것 배우자 선택 요령 맞선에 대한 모든것 혈액형과 궁합 나라별 <b>결혼</b>풍습 <b>결혼</b>에 대한 상식 <b>결혼</b>정보업체 다이어트, 패션, 미용 최근뉴스 속보 소개팅에 관한 정보]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/pjk8280" target="_blank">결혼정보회사옹달샘</a>
+				</div>
+			</li>
+	
+			<li>
+				<h5><a href="http://blog.naver.com/lilacgarden0" target="_blank">(이웃추가 이벤트중)<b>결혼</b>하고 싶은 여자 겨울추워</a></h5>
+					<div class="list_content"><b>결혼</b>준비의 모든것과 겨울추워의 일상이야기. 이웃추가 이벤트중^^ 직통번호**-****-****</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/lilacgarden0?Redirect=Category&categoryNo=89" target="_blank">[웨딩관련 이벤트 겨울추워 이벤트 웨딩 뉴스/팁 └MAKE UP/HAIR └DRESS └STUDIO └호텔 겨울추워's<b>결혼</b>이야기 웨딩홀 네일 기본팁 배우기 이벤트,세일,쿠폰 셀프네일]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/lilacgarden0" target="_blank">겨울추워</a>
+				</div>
+			</li>
+	
+			<li>
+				<h5><a href="http://blog.naver.com/marry1992" target="_blank">애니의 행복한 <b>결혼</b> 이야기~♬</a></h5>
+					<div class="list_content">애니의 행복한 <b>결혼</b>이야기~를 들려드릴께요!! (무료웨딩컨설팅문의는 비본웨딩(**-***-****)</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/marry1992?Redirect=Category&categoryNo=9" target="_blank">[♡예쁜신혼집꾸미기 ♡요리잘하는신부! ♡예쁜웨딩드레스! ♡총 <b>결혼</b> 비용 └▶ 예식장 후기 ♡비본웨딩 동영상~ ♡예식장/상견례! ♡신혼여행 사진~ ♡비본웨딩공동구매~ -임신/출산/육아 정보 └▶인테리어정보 ♡웨딩메이크업! ♡행복한 <b>결혼</b>식~ ♡비본웨딩의신부~ ♡웨딩정보보스크랩 ♡예단한복정보후기! ♡예쁜부케와슈즈! ☆재미로 보자~! ♡예물/금시세정보 ☆영화보러가자~! ♡웨딩백과사전! └▶ 여행 정보~ -재테크 정보 ♡비본웨딩NEWS~ ♡웨딩스튜디오! ♡애니의<b>결혼</b>준비~ ♡프리스타일견적~ ♡비본웨딩이벤트~ ♡비본웨딩협력업체 ♡날씬한신부되기!]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/marry1992" target="_blank">애니</a>
+				</div>
+			</li>
+	
+			<li>
+				<h5><a href="http://blog.naver.com/odbk" target="_blank"><b>결혼</b>에 관한 고찰</a></h5>
+					<div class="list_content">위 사진을 찍은지도 벌써 옛날옛적 호랑이 담배피우다 돌아가신지 칠주년을 맞이했다는...ㅋㅋㅋ</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/odbk?Redirect=Category&categoryNo=9" target="_blank">[예물 옐로우 보이즈~ 설문조사(투표) 가구 감동 게임천하 뉴스 LIFE 패션 주방/가전제품 한복 연예 다큐멘터리 드라마 고전/독립/저예산 로멘스/코믹영화 드레스,예복 한국영화 액션/스릴러영화 SF/판타지영화 공포/호러영화 잡다한것들.. 웃어봅시다(유머) 예식장/사진 웃어봅시다(동영상) 영상시집 아름다운 性(성) 신혼집 신혼여행 폐백/피로연 침구류/함 <b>결혼</b>준비]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/odbk" target="_blank">헬퍼</a>
+				</div>
+			</li>
+	
+			<li>
+				<h5><a href="http://blog.naver.com/nalbam1318" target="_blank">두리국제<b>결혼</b></a></h5>
+					<div class="list_content">안녕하세여^^ 인연을 연인으로 만들어 드리는 DOORI 입니다 ***-****-**** 국제<b>결혼</b> 문의 상담가능 www.dooriwed.com 홈페이지에 놀러오세요^^</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/nalbam1318?Redirect=Category&categoryNo=8" target="_blank">[┎▷ 볼거리 두리국제<b>결혼</b>회사 국가별나라정보 국가별여성정보 캄보디아 여성 베트남 여성 ┎▷ 연애인 소식 ┎▷ 좋은글 <b>결혼</b>사진 doori 국제<b>결혼</b> 중국 여성 중국 음식 여행 사진 국제<b>결혼</b>비용 출국.입국 ┎▷ 엽기 국제<b>결혼</b>상담 필리핀 베트남여행 여행동영상 ┎▷ 자료실 ┎▷ 월간지 ┎▷ game 국제<b>결혼</b>정보 ┎▷ 자동차 정비 ┎▷ 레이싱 걸 ┎▷ 자동차 ┎▷ 낙서장]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/nalbam1318" target="_blank">DooRI 결혼상담사</a>
+				</div>
+			</li>
+	
+			<li>
+				<h5><a href="http://blog.naver.com/dlcndgjs70" target="_blank">두리안 국제<b>결혼</b></a></h5>
+					<div class="list_content">주 예수를 믿으라, 그리하면 너와 네 집이 구원을 얻으리라. ( 행 16 : 31 ) 경기도 고양시에 있는, 두리안 국제<b>결혼</b> 입니다. &quot;베트남&quot;만 상담합니다.</div>
+					<div class="list_content">
+			            
+			              
+			              <a href="http://blog.naver.com/dlcndgjs70?Redirect=Category&categoryNo=40" target="_blank">[심심풀이 땅콩~ 통기타 통통통~ 하늘빛 하늘샘 교회 종교 두리안 국제<b>결혼</b> 뛰뛰빵빵 자동차 기타 등등 동영상 편집 정치 국제<b>결혼</b> 자료실]</a>
+			              
+			              
+			            
+		         	</div>
+				<div class="list_data">
+					<a href="http://blog.naver.com/dlcndgjs70" target="_blank">데쓰</a>
+				</div>
+			</li>
+	
+	
+		</ul>
+		<div class="paginate">
+		<strong>1</strong> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('2'); return false;" >2</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('3'); return false;" >3</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('4'); return false;" >4</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('5'); return false;" >5</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('6'); return false;" >6</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('7'); return false;" >7</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('8'); return false;" >8</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('9'); return false;" >9</a> 
+<a href="#"  style="cursor:pointer" onclick="javascript:goPage('10'); return false;" >10</a> 
+<a href="#" class="next" style="cursor:pointer" onclick="javascript:goPage('11');  return false;" >다음</a> 
+
+
+		</div>
+	</div>
+</form>
+
+
+<!-- lcs -->
+<script type="text/javascript">
+var selectbox2 =  new Selectbox($('search_type'), {
+		boxWidth : '100',
+		layerWidth : '100',
+		height : 100,
+		useHtml : true
+	});
+
+
+utility.writeNewLcsNonGdid("sti","blog_searchblog");
+
+
+</script>
+
+
+		</div>
+
+		<hr />
+		<div class="template_aside">
+			<div class="template_advertisement" id="addiv" name="addiv"><iframe id="f240240" name="f240240"
+				src="http://ad.naver.com/adshow?unit=207B" width="240" height="240" border="0" frameborder="0" scrolling="no"
+				marginheight="0" marginwidth="0" align="center" title="광고"></iframe></div>
+			<br/>
+			
+
+
+
+
+	<script type="text/javascript">
+		function goSearch(keyword) {
+			location.href="/sub/SearchBlog.nhn?option.keyword="+encodeURI(keyword);
+		}
+		
+	</script>
+	
+	<div class="normal_list template">
+		<h3><img src="http://blogimgs.naver.net/section/h3_relation_searchword.gif" width="58" height="12" alt="연관 검색어" /></h3>
+		
+		<a href="http://help.naver.com/ops/step2/faq.nhn?faqId=3153" class="r_btn" target="_blank"><img src="http://blogimgs.naver.net/section/btn_help.gif" width="14" height="14" alt="도움말" /></a>
+		<ul>
+	
+		<li>연관 검색어가 없습니다.</li>
+		
+	
+		</ul>
+	</div>
+	
+
+			
+
+
+		<!-- 091212추가 // 이용팁 추가   지난 블로그 리스트는 삭제-->
+			<div class="naverblogtip template">
+				<h3><a href="http://blog.naver.com/blogpeople?Redirect=Category&parentCategoryNo=7" target="_blank" class="sp_aside h_blogtip"><span class="blind">블로그 이용 팁</span></a></h3>
+        		<h3><a href="/sub/Rights.nhn" target="_top" class="sp_aside h_right"><span class="blind">포스트 권리 보호하기</span></a></h3>
+
+				<ul>
+				<li><a href="http://help.naver.com/ops/step2/mail.nhn?upCatg=218" target="_blank" class="sp_aside ques"><span class="blind">문의하기</span></a></li>
+        		<li><a href="http://help.naver.com/ops/step2/query.nhn" target="_blank" class="sp_aside alert"><span class="blind">신고하기</span></a></li>
+				</ul>
+
+			</div>
+			<!-- //091212추가 -->
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<hr />
+
+
+	<div class="theme_category">
+		
+
+
+
+		<h3 class="no_view">테마 카테고리</h3>
+		<ul>
+
+	
+		<li style="width:270px;"><span class="sp_common h_cate1"><em class="blind">엔터테이먼트 예술</em></span>
+			<ul>
+	
+	
+	
+	
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=5" name="directoryItem">문학·책</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=6" name="directoryItem">영화</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=8" name="directoryItem">미술·디자인</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=7" name="directoryItem">공연·전시</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=11" name="directoryItem">음악</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=9" name="directoryItem">드라마</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=12" name="directoryItem">스타·연예인</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=13" name="directoryItem">만화·애니</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=10" name="directoryItem">방송</a></li>
+	
+			</ul>
+		</li>
+
+	
+	
+		<li style="width:255px;"><span class="sp_common h_cate2"><em class="blind">생활 노하우 쇼핑</em></span>
+			<ul>
+	
+	
+	
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=14" name="directoryItem">일상·생각</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=15" name="directoryItem">육아·결혼</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=16" name="directoryItem">애완·반려동물</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=17" name="directoryItem">좋은글·이미지</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=18" name="directoryItem">패션·미용</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=19" name="directoryItem">인테리어·DIY</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=20" name="directoryItem">요리·레시피</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=21" name="directoryItem">상품리뷰</a></li>
+	
+			</ul>
+		</li>
+
+	
+	
+	
+		<li style="width:230px;"><span class="sp_common h_cate3"><em class="blind">취미 여가 여행</em></span>
+			<ul>
+	
+	
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=22" name="directoryItem">게임</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=23" name="directoryItem">스포츠</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=24" name="directoryItem">사진</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=25" name="directoryItem">자동차</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=26" name="directoryItem">취미</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=27" name="directoryItem">국내여행</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=28" name="directoryItem">세계여행</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=29" name="directoryItem">맛집</a></li>
+	
+			</ul>
+		</li>
+
+	
+	
+	
+	
+		<li style="width:215px;" class="end"><span class="sp_common h_cate4"><em class="blind">지식동향</em></span>
+			<ul class="small2">
+	
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=30" name="directoryItem">IT·컴퓨터</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=31" name="directoryItem">사회·정치</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=32" name="directoryItem">건강·의학</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=33" name="directoryItem">비즈니스·경제</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=35" name="directoryItem">어학·외국어</a></li>
+	
+			<li><a href="/sub/PostListByDirectory.nhn?option.directorySeq=34" name="directoryItem">교육·학문</a></li>
+	
+			</ul>
+		</li>
+
+		</ul>
+
+
+	</div>
+
+	<hr />
+
+	
+
+
+	
+	<div id="footer2">
+		<ul>
+		<li class="first">
+			<a href="http://www.naver.com/rules/service.html">이용약관</a></li>
+		<li>
+			<a href="http://blog.naver.com/post/blog_use.htm">블로그 운영원칙</a></li>
+		<li>
+			<a href="http://www.naver.com/rules/privacy.html"><strong>개인정보취급방침</strong></a></li>
+		<li>
+			<a href="http://www.naver.com/rules/disclaimer.html">책임의 한계와 법적고지</a></li>
+		<li>
+			<a href="/sub/Rights.nhn" target="_top">포스트 권리 보호하기</a></li>
+		<li>
+			<a href="http://help.naver.com/claim_main.asp">게시중단요청서비스</a></li>
+		<li>
+			<a href="http://help.naver.com/ops/step2/faq.nhn?parentId=41" target="_blank">블로그 도움말</a></li>
+		<li>
+			<a href="http://help.naver.com/ops/step2/mail.nhn?upCatg=218" target="_blank">문의하기</a></li>
+		</ul>
+
+		<address>
+			<a href="http://www.nhncorp.com/" target="_blank" class="logo"><span class="blind">NHN</span></a>
+			<em>Copyright &copy;</em>
+			<a href="http://www.nhncorp.com/" target="_blank">NHN Corp.</a>
+			<span>All Rights Reserved.</span>
+		</address>
+	</div>
+	
+
+
+
+	
+
+
+
+
+</div>
+
+
+</body>
+</html>
