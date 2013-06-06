@@ -1,0 +1,2189 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ko">
+<head>
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=MS949" />
+
+
+
+
+
+
+<!--[if ie]>
+<style type="text/css">
+html {overflow: scroll; overflow-x: auto;}
+</style>
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" href="http://t.static.blog.naver.net/mylog/versioning/LayoutTopCommon-425299.css" />
+
+<style type="text/css">
+/*<![CDATA[*/
+
+
+body {background-color:rgb(255, 255, 255);background-image:none;}
+#head-skin {background-image:none;}
+
+
+#whole-border {border-width:0px;border-style:solid;border-color:rgb(255, 255, 255);background:transparent;}
+#whole-head {height:0;background:transparent;}
+#whole-body {padding:0 8px;background:transparent;}
+#whole-footer {height:0;background:transparent;}
+
+
+#wrapper .side-border {border-width:0px;border-style:solid;border-color:rgb(0, 0, 0);}
+#wrapper .side-head {height:8px;background:transparent;}
+#wrapper .side-body {padding:0px;background:transparent;}
+#wrapper .side-footer {height:8px;background:transparent;}
+
+
+#wrapper .cm-col1 {color:rgb(108, 108, 108);}
+#wrapper .cm-arw {background:rgb(108, 108, 108);}
+#wrapper div.line {border-top-color:rgb(108, 108, 108);}
+#wrapper .cm-border {border-width:0px;border-style:solid;border-color:rgb(0, 0, 0);}
+#wrapper .cm-head {height:30px;background:url(http://blogimgs.naver.com/nblog/skins/infobox/1005_head.gif);}
+#wrapper .cm-body {background:url(http://blogimgs.naver.com/nblog/skins/infobox/1005_body.gif);}
+#wrapper .cm-footer {height:6px;background:url(http://blogimgs.naver.com/nblog/skins/infobox/1005_footer.gif);}
+#wrapper .cm-icol {color:rgb(108, 108, 108);}
+#wrapper h3 {margin-left:14px;bottom:4px;}
+#wrapper .cmore {bottom:4px;}
+#blog-category .listimage {background-image:url(http://blogimgs.naver.com/nblog/skins/infobox/0003_arw.gif);}
+#wrapper .buddyup {background-image:url(http://blogimgs.naver.com/nblog/skins/infobox/0003_icon_up.gif);}
+#wrapper .buddydw {background-image:url(http://blogimgs.naver.com/nblog/skins/infobox/0003_icon_down.gif);}
+#blog-category .f_icoclosed {}
+#blog-category .f_icoopen {}
+#blog-category ul li.depth2 {background-image:url(http://blogimgs.naver.com/nblog/skins/infobox/ico_depth2_l.gif) !important;}
+
+
+#blog-gnb .link {color:rgb(153, 153, 153);}
+#blog-gnb .bar {background:rgb(153, 153, 153);}
+#blog-gnb .logout {background:url(http://blogimgs.naver.com/nblog/skins/gnb/0028_logout.gif);}
+#blog-gnb .login {background:url(http://blogimgs.naver.com/nblog/skins/gnb/0028_login.gif);}
+#blog-gnb .go-down {background:url(http://blogimgs.naver.com/nblog/skins/gnb/0028_down.gif);}
+#blog-gnb .go-up {background:url(http://blogimgs.naver.com/nblog/skins/gnb/0028_up.gif);}
+
+
+#foldset .go-left {background:url(http://blogimgs.naver.com/nblog/skins/gnb/0028_left.gif)}
+#foldset .go-right {background:url(http://blogimgs.naver.com/nblog/skins/gnb/0028_right.gif)}
+
+#body {width:982px; margin:0 auto; padding:0;}
+body, #head-skin, #bottom-skin {background-position:50% 0;}
+#wrapper {width:966px; padding-top:8px;}
+#content-area {width:966px;}
+
+
+
+@font-face { font-family:'3028108_12'; font-style:normal; font-weight:normal; src:url(http://itemimgs.naver.com/outlinefont/8/81/3028108_12.eot); } 
+@font-face { font-family:'3028108_12'; font-style:normal; font-weight:normal; src:url(http://itemimgs.naver.com/outlinefont/8/81/3028108_12.eot); } 
+.itemTitlefont         {font-size:12pt;font-family:'3028108_12';}
+.itemTitlefont:link    {font-size:12pt;font-family:'3028108_12';}
+.itemTitlefont:visited {font-size:12pt;font-family:'3028108_12';}
+.itemTitlefont:hover   {font-size:12pt;font-family:'3028108_12';}
+#blogTitleText .itemtitlefont {font-size:12pt;font-family:'3028108_12';}
+.itemfont, a.itemfont:link, a.itemfont:visited, a.itemfont:hover, a.itemfont:active {font-size:9pt;font-family:돋움 굴림 seoul verdana arial;}
+a.itemTagfont:link, a.itemTagfont:visited {font-size:9pt;font-family:돋움 굴림 seoul verdana arial;}
+a.itemTagfont:hover , a.itemTagfont:active {font-size:9pt;font-family:돋움 굴림 seoul verdana arial; color:#418F21;}
+.itemSubjectfont   {font-size:9pt;font-family:돋움 굴림 seoul verdana arial;}
+#post-area .post_adpost .itemSubjectfont {font-size:10pt !important;font-family:돋움 굴림 seoul verdana arial;}
+
+
+#post-area .post {border-width:1px;border-style:solid;border-color:rgb(234, 234, 234);}
+#post-area .post-back {background:transparent;}
+#post-area .pcol1 {color:rgb(0, 0, 0);font-family:돋움;font-size:16px;}
+#post-area .pcol2 {color:#252525;}
+#post-area .pcol2b {background:#252525;}
+#post-area .cline {border-bottom-color:#252525;}
+#post-area .pcol3 {color:rgb(237, 23, 70);}
+#post-area .dline {border-top-width:1px;border-top-style:dashed;border-top-color:rgb(0, 0, 0);}
+#post-area .htl {width:14px;height:14px;background:none;}
+#post-area .htc {height:14px;background:none;}
+#post-area .htr {width:14px;height:14px;background:none;}
+#post-area .ftl {width:14px;height:14px;background:none;}
+#post-area .ftc {height:14px;background:none;}
+#post-area .ftr {width:14px;height:14px;background:none;}
+#post-area .bcl {width:14px;background:none;}
+#post-area .bcc {background:none;}
+#post-area .bcr {width:14px;background:none;}
+#post-area .ico1 {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/0003_ico1_up.gif);}
+#post-area .ico2 {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/0003_ico1_down.gif);}
+#post-area .ico3 {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/0003_ico2.gif);}
+#post-area .comment {background:rgb(247, 247, 247);}
+#post-area .btn {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/0000_input.png);}
+#post-area .btn-sympathy {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/btn_sympathy_03.gif);}
+#post-area .btn_r {background:url(http://blogimgs.naver.net/nblog/skins/poststyle/btn_reply_default.gif);}
+
+* html #post-area .btn { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://blogimgs.naver.com/nblog/skins/poststyle/0000_input.png,sizingMethod=crop); }
+.post-back {background:transparent;}
+.pcol1 {color:rgb(0, 0, 0);font-family:돋움;font-size:16px;}
+.pcol2 {color:#252525;}
+.pcol2b {background:#252525;}
+.pcol3 {color:rgb(237, 23, 70);}
+.bcc {background:none;}
+#post-area .sline {border-bottom-color:rgb(0, 0, 0);}
+
+#blog-adpost {}
+#blog-profile .border {border-width:0px;border-style:solid;border-color:rgb(255, 255, 255);}
+#blog-profile .bg-head {height:0px;background:none;}
+#blog-profile .bg-body {padding:0px;background:none;}
+#blog-profile .bg-footer {height:0px;background:none;}
+#blog-profile .col {color:rgb(65, 65, 65);}
+#blog-profile .icon {background-image:url(http://blogimgs.naver.com/nblog/skins/profile/0162_icon.gif);}
+#blog-profile .image {display:block;}
+#blog-profile .image img {width:171px;}
+#blog-profile .align {text-align:left;}
+
+#blog-counter {height:53px;background-image:url(http://blogimgs.naver.com/nblog/skins/counter/0109_back.gif);}
+#blog-counter .today {width:155px;text-align:right;}
+#blog-counter .cnt1 {margin:12px 0 0 0;color:rgb(65, 69, 93);font-family:tahoma;font-size:11px;font-weight:bold;}
+#blog-counter .total {width:155px;text-align:right;}
+#blog-counter .cnt2 {margin:28px 0 0 0;color:rgb(65, 69, 93);font-family:tahoma;font-size:11px;font-weight:bold;}
+
+
+
+
+
+
+
+#blog-rss {height:10px;background-image:url(http://blogimgs.naver.com/nblog/skins/rss/0102_image.gif);}
+#blog-rss .rss1 {width:52px;height:10px;margin:0 0 0 10px;}
+#blog-rss .rss2 {width:48px;height:10px;margin:0 0 0 65px;}
+#blog-rss .rss3 {width:43px;height:10px;margin:0 0 0 118px;}
+
+
+#blog-title {height:220px;background:url(http://blogskthumb.phinf.naver.net/20120828_119/kohaku3533_1346128562787_qB3ic1_jpg/zxcde.jpg?type=crop966);}
+#blogTitleText {vertical-align:bottom;text-align:left;}
+#blogTitleName {display:none;color:rgb(255, 255, 255);font-family:돋움;font-size:10px;}
+
+#blog-menu .border {height:36px;border-width:0px;border-style:solid;border-color:rgb(0, 0, 0);}
+#blog-menu table {height:36px;background:url(http://blogimgs.naver.com/nblog/skins/menu/0003_966.gif);}
+#blog-menu .on {color:rgb(63, 145, 157);}
+#blog-menu .off {color:rgb(61, 68, 68);}
+#blog-menu .bar {background:rgb(61, 68, 68);}
+
+
+	
+	
+/*]]>*/
+</style>
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/common/js/global/RemoveSubDomain-124754.js"></script>
+<script>
+
+
+
+
+
+var mylogURL = 'http://blog.naver.com';
+var adminURL = 'http://admin.blog.naver.com';
+var noteURL = 'http://note.naver.com';
+var itemURL = 'http://item.naver.com';
+var cafeURL = 'http://cafe.naver.com';
+var profileURL = 'http://blog.naver.com';
+var blogURL = 'http://blog.naver.com';
+var prologueURL = 'http://blog.naver.com';
+var sectionURL = 'http://section.blog.naver.com';
+var memologURL = 'http://blog.naver.com';
+var lifeURL = 'http://lifelog.blog.naver.com';
+var uploadURL = 'http://upload.blog.naver.com';
+var imageURL = 'http://blogimgs.naver.net';
+var attachURL = 'http://blogfiles.naver.net';
+var thumbnailURL = 'http://blogthumb2.naver.net';
+var nonCachedThumbnailURL = 'http://blogthumb4.naver.net';
+var filetransURL = 'http://filetrans.blog.naver.com';
+var item2_bridgeURL = 'http://bridge.item2.naver.com';
+var idURL = 'http://nid.naver.com';
+var idURLSecret = 'https://nid.naver.com';
+var mapviewURL = 'http://mapview.naver.com';
+var exifURL = 'http://exif.blog.phinf.naver.net';
+var viewerImageUrl = imageURL + "/blog20/blog/layout_photo/viewer/";
+var domainURL = "";
+var greenReviewCampaignURL = 'http://campaign.naver.com';
+var writeURL = 'http://blog.naver.com';
+var spiURL = 'http://spi.naver.net';
+var blogProfileThumbnailUrl='http://blogpfthumb.phinf.naver.net';
+
+
+var sCssUrlForPhotoLayer = 'http://t.static.blog.naver.net/mylog/versioning/common/css/storyphoto_original_viewer-124754.css';
+
+
+
+
+
+var blogId = 'kohaku3533' || 'kohaku3533';  
+var userId = ''; 
+var userNo = ''; 
+
+
+var isWritingBlocked = false;
+var isWritingBlockedBySpamIP = false;
+var isWritingBlockedBySpamIPManually = false;
+var isLoggedIn = false;
+var isShortestContentAreaWidth = false;
+
+var blogOwner = false; 
+
+var blogNo = '16846647';
+var nickName = '하쿠';
+var isInitializingBlog = false;
+var rightClickOpenYn = true;
+var isMylogBlocked = false;
+var isBlogBlock = false;
+var blockOrWriteBlock = false;
+var autoSourcingYn = true;
+
+
+var isMemolog = false;
+var isMemologList = false;
+var isPrologue = false;
+
+
+var isBlogMe = false;
+
+
+var isRequestFromIPad = false;
+
+
+
+
+
+
+var readOnlyStatus = false;
+var readOnlyStatusAll = false;
+var readOnlyLinkErrorMsg = '죄송합니다. 블로그 서비스 점검 중입니다. \n점검 시간 동안은 기능 이용이 제한됩니다. \n자세한 내용은 블로그 홈 공지사항을 참고해주세요.';
+var readOnlyCommentMsg = '9월 6일(목) 오전 1시~9시 50분 서비스 점검으로 덧글 작성이 제한됩니다. \n더욱 안정적인 서비스로 찾아뵙겠습니다. 불편하시더라도 조금만 기다려주세요.';
+var sIsTagReadOnly = '';
+var sIsCommentLengthExceeded = ' 덧글은 최대 한글 1000자까지 입력할 수 있습니다.';  
+var sTagSorryText = '죄송합니다. 태그 서비스 점검 중입니다.\n점검 시간 동안은 일부 서비스 이용이 제한됩니다.\n자세한 내용은 공지사항을 참조하세요.';
+var blogQuickPostingUseType = "NOT_SET"; 
+
+
+
+
+var isCommentReadOnly = false;
+var sCommentReadOnlyBlockSubmit = '죄송합니다. 블로그 덧글, 답글 서비스 점검 중에는 이용이 제한됩니다.';
+var sCommentReadOnlyWriteMsg = '서비스 점검으로 덧글 작성이 제한됩니다.\n더욱 안정적인 서비스로 찾아뵙겠습니다. 불편하시더라도 조금만 기다려주세요.';
+ 
+
+
+
+
+
+
+var isJeagleDebug = false;
+
+
+
+
+
+var skinId = "0";
+var skinType = "";
+
+var isEnglish = "false";
+
+var areaCode = "11H20200";
+var weatherType = "0";
+
+var currencySign = "USD";
+
+var listNumVisitor = '10';
+var isVisitorOpen = false;
+var isCategoryOpen = true;
+var writingMaterialListType = '1'
+
+
+
+var oExternalWidget = [{'blockYn':false,'blogId':'kohaku3533','reversedWidgetCode':'E3%aF2%C3%E3%F2%+22%fig.2figinaF2%FIG_b7voJ7210511835531_3353ukahokF2%952_31212102F2%ten.revan.4selifgolbF2%F2%A3%ptth22%D3%crs+gmiC3%A0%D0%E3%22%F2%rk.oc.yrotsukah.wwwF2%F2%A3%ptth22%D3%ferh+++22%knil_noc22%D3%ssalc+22%knalb_22%D3%tegrat+aC3%','heightNotExist':false,'socialAppId':0,'teminationMessageHtml':'','seq':1175846,'serviceTerminated':false,'appProfileKeyForLayout':'1175846','spamscore':0,'userOptionalInfo':null,'heightExist':true,'socialAppProfileWidget':false},{'blockYn':false,'blogId':'kohaku3533','reversedWidgetCode':'E3%aF2%C3%E3%F2%+22%fig.ohs02203102F2%FIG_NF8PJ8312022611631_3353ukahokF2%05_81203102F2%ten.revan.selifgolbF2%F2%A3%ptth22%D3%crs+gmiC3%A0%D0%E3%22%F2%rk.oc.yrotsukah.wwwF2%F2%A3%ptth22%D3%ferh+++22%knil_noc22%D3%ssalc+22%knalb_22%D3%tegrat+aC3%','heightNotExist':false,'socialAppId':0,'teminationMessageHtml':'','seq':1225676,'serviceTerminated':false,'appProfileKeyForLayout':'1225676','spamscore':0,'userOptionalInfo':null,'heightExist':true,'socialAppProfileWidget':false},{'blockYn':false,'blogId':'kohaku3533','reversedWidgetCode':'E3%aF2%C3%E3%F2%+22%fig.13503102sukahF2%FIG_yDxMJ0688678000731_3353ukahokF2%48_13503102F2%ten.revan.selifgolbF2%F2%A3%ptth22%D3%crs+gmiC3%A0%D0%E3%22%F2%rk.oc.yrotsukah.wwwF2%F2%A3%ptth22%D3%ferh+++22%knil_noc22%D3%ssalc+22%knalb_22%D3%tegrat+aC3%','heightNotExist':false,'socialAppId':0,'teminationMessageHtml':'','seq':1279674,'serviceTerminated':false,'appProfileKeyForLayout':'1279674','spamscore':0,'userOptionalInfo':null,'heightExist':true,'socialAppProfileWidget':false}];
+
+
+var calType = "";
+
+
+var playerSrc1 = '/versioning/common/swf/Music/NBMPlayer_1line-51915.swf';
+var playerSrc2 = '/versioning/common/swf/Music/NBMPlayer_2line-50412.swf';
+var playerXmlSrc = '/versioning/common/swf/Music/NBMPlayer-109133.xml';
+var curLog = 'http://blog.naver.com';
+var playerType = '1';
+var playerDesign = '25';
+
+
+var isCommentOpen = false;
+var listNumComment = 10;
+
+
+var isBuddyOpen = false;
+
+
+
+var userSelectMenu = '';
+
+
+var visitorgpData = '2';
+var vigitorSetUrl = '/versioning/common/swf/Widget/visitorGP/VisitorGP-51839.swf';
+var vigitorPropUrl = '/versioning/common/swf/Widget/visitorGP/VisitorGP-51839.xml';
+var visitorgp_vars = {
+	setUrl    : vigitorSetUrl,
+	req_url   : '/NVisitorgp4Ajax.nhn?blogId=' + blogId,
+	prop_url  : vigitorPropUrl,
+	graphType : visitorgpData,
+	flashvars : function(){
+		return "req_url=" + this.req_url +"&prop_url=" + this.prop_url +"&graphType=" + this.graphType;
+	},
+	height    : 121
+};
+
+
+
+var watchData = '';
+var watch_design = {
+	data    : watchData,
+	name    : function(){ return this.data.split('|')[0]; },
+	font    : function(){ return this.data.split('|')[1]; },
+	color   : function(){ return this.data.split('|')[2]; },
+	bgcolor : function(){ return this.data.split('|')[3]; }
+}
+var watch_vars = {
+	req_url   : encodeURIComponent('/NWatch4Ajax.nhn?blogId=' + blogId + '&skinType=' + skinType + '&skinId=' + skinId),
+	fontData  : watch_design.font(),
+	fontColor : watch_design.color(),
+	bgColor   : watch_design.bgcolor(),
+	url       : "/common/ui/swf/watch/",
+	name      : watch_design.name(),
+	setUrl    : function(){
+		return this.url + this.name +'.swf';
+	},
+	flashvars : function(){
+		return "req_url=" + this.req_url +"&fontData=" + this.fontData +"&fontColor=" + this.fontColor + "&bgColor=" + this.bgColor;
+	},
+	height    : function(){
+		var n = this.name;
+		h = n.match(/_\s*(.*?)_/)[1];
+		h = h.replace(/^[0]/,'');
+		return h;
+	}
+};
+
+
+var serviceId = '';
+var naverId = '';
+var happyBeanApiURL = '';
+var reqparam = '';
+var HAPPYBEAN_API_URL = "";
+var HAPPYBEAN_FUND_URL = "";
+//var HAPPYBEAN_MY_URL   = "";
+var HAPPYBEAN_DONATION_URL = "";
+
+
+var hbeanLeverageApiURL = '';
+var hbeanLeverageParam = '';
+
+
+var selectCategoryNo = "7";
+
+
+var aNonWidget = ['rss', 'powered','adpost','buddyconnect','socialappbox','greenreview'];
+<!-- var aWidget = ['gnb', 'externalwidget','music'];  -->
+var aWidget = [];
+
+
+aWidget.push('content');
+
+aWidget.push('adpost');
+
+aWidget.push('profile');
+
+aWidget.push('counter');
+
+aWidget.push('1279674');
+
+aWidget.push('stat');
+
+aWidget.push('1175846');
+
+aWidget.push('category');
+
+aWidget.push('search');
+
+aWidget.push('1225676');
+
+aWidget.push('rss');
+
+aWidget.push('visitorgp');
+
+aWidget.push('music');
+
+aWidget.push('title');
+
+aWidget.push('menu');
+
+aWidget.push('gnb');
+
+aWidget.push('externalwidget');
+
+var bIsRemocon = false;
+var bIsPreview = document.location.href.indexOf("PostPreview.nhn") > -1 || document.location.href.indexOf("MemologMemoPreview.nhn") > -1;
+
+var isTopLayoutEmpty = false;
+
+var openSideType = "1";
+var foldSideType = "2";
+
+var g_ContentShareObject = {
+	adPostPreview : false,
+	adPostPreviewSide : false,
+	adPostPreviewContent : false,
+	adPostAlign : "1",
+	adPostCount : "3"
+};
+
+var blogDomainUrl = "";
+var sAjaxFlashUrl = '/versioning/common/lib/ajax.flash/ajax_2.7.0-150860.swf';
+var isHappyBeanLeverage = false;
+
+
+</script>
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/Jindo152-110197.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/LayoutTopCommon-1039541.js"></script>
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/JindoComponent-140112.js" charset="utf-8"></script>
+
+
+
+
+
+	
+		<meta name="robots" content="index,follow"/>
+	
+	
+
+
+
+<meta http-equiv='imagetoolbar' content='no'/>
+
+
+<meta property="og:title" content="500마력 이상만 참가하는 슈퍼카 드래그 레이스 드래그타임즈 Unlim 500+"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content='http://blog.naver.com/kohaku3533/140190608270'/>
+
+
+<meta property="og:image" content="http://blogthumb2.naver.net/20130606_54/kohaku3533_13704533776456aSRb_JPEG/465946_481683875217700_405864345_o.jpg?type=s2"/>
+
+
+
+
+
+<meta property="og:description" content="전세계에는 수많은 드래그 레이스 대회가 열리고 있습니다만, 최근 가장 큰 인기를 모으고 있는 드래그 레이스 대회는  단연 Unlim 500+ 가 아닌가 생각합니다. 드래그타임..."/>
+
+
+
+<meta property="og:article:author" content="하쿠"/>
+<meta property="me2:post_body" content="&quot;500마력 이상만 참가하는 슈퍼카 드래그 레이스 드래그타임즈 Unlim 500+&quot;:http://blog.naver.com/kohaku3533/140190608270"/>
+<meta property="me2:post_tag" content="네이버블로그 하쿠의 끝없는 항로 "/>
+<meta property="me:feed:serviceId" content="blog" /> 
+
+
+	
+		<title>500마력 이상만 참가하는 슈퍼카 드래그 레이스 드래그타임즈 Unlim 500+ : 네이버 블로그</title>
+	
+	
+
+
+<link rel="stylesheet" type="text/css" href="http://t.static.blog.naver.net/mylog/versioning/PostView-820832.css" />
+
+<style type="text/css">
+/*<![CDATA[*/
+
+#post-area .post {border-width:1px;border-style:solid;border-color:rgb(234, 234, 234);}
+#post-area .post-back {background:transparent;}
+#post-area .pcol1 {color:rgb(0, 0, 0);font-family:돋움;font-size:16px;}
+#post-area .pcol2 {color:#252525;}
+#post-area .pcol2b {background:#252525;}
+#post-area .cline {border-bottom-color:#252525;}
+#post-area .pcol3 {color:rgb(237, 23, 70);}
+#post-area .dline {border-top-width:1px;border-top-style:dashed;border-top-color:rgb(0, 0, 0);}
+#post-area .htl {width:14px;height:14px;background:none;}
+#post-area .htc {height:14px;background:none;}
+#post-area .htr {width:14px;height:14px;background:none;}
+#post-area .ftl {width:14px;height:14px;background:none;}
+#post-area .ftc {height:14px;background:none;}
+#post-area .ftr {width:14px;height:14px;background:none;}
+#post-area .bcl {width:14px;background:none;}
+#post-area .bcc {background:none;}
+#post-area .bcr {width:14px;background:none;}
+#post-area .ico1 {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/0003_ico1_up.gif);}
+#post-area .ico2 {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/0003_ico1_down.gif);}
+#post-area .ico3 {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/0003_ico2.gif);}
+#post-area .comment {background:rgb(247, 247, 247);}
+#post-area .btn {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/0000_input.png);}
+#post-area .btn-sympathy {background:url(http://blogimgs.naver.com/nblog/skins/poststyle/btn_sympathy_03.gif);}
+#post-area .btn_r {background:url(http://blogimgs.naver.net/nblog/skins/poststyle/btn_reply_default.gif);}
+
+* html #post-area .btn { background:transparent; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://blogimgs.naver.com/nblog/skins/poststyle/0000_input.png,sizingMethod=crop); } 
+ 
+@font-face { font-family:'3028108_12'; font-style:normal; font-weight:normal; src:url(http://itemimgs.naver.com/outlinefont/8/81/3028108_12.eot); } 
+@font-face { font-family:'3028108_12'; font-style:normal; font-weight:normal; src:url(http://itemimgs.naver.com/outlinefont/8/81/3028108_12.eot); } 
+.itemTitlefont         {font-size:12pt;font-family:'3028108_12';}
+.itemTitlefont:link    {font-size:12pt;font-family:'3028108_12';}
+.itemTitlefont:visited {font-size:12pt;font-family:'3028108_12';}
+.itemTitlefont:hover   {font-size:12pt;font-family:'3028108_12';}
+#blogTitleText .itemtitlefont {font-size:12pt;font-family:'3028108_12';}
+.itemfont, a.itemfont:link, a.itemfont:visited, a.itemfont:hover, a.itemfont:active {font-size:9pt;font-family:돋움 굴림 seoul verdana arial;}
+a.itemTagfont:link, a.itemTagfont:visited {font-size:9pt;font-family:돋움 굴림 seoul verdana arial;}
+a.itemTagfont:hover , a.itemTagfont:active {font-size:9pt;font-family:돋움 굴림 seoul verdana arial; color:#418F21;}
+.itemSubjectfont   {font-size:9pt;font-family:돋움 굴림 seoul verdana arial;}
+#post-area .post_adpost .itemSubjectfont {font-size:10pt !important;font-family:돋움 굴림 seoul verdana arial;}
+ 
+/*]]>*/
+</style>
+<style></style> 
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">JEagleEyeClient.setEnable(isJeagleDebug);</script>
+<script type="text/javascript">$Ajax.SWFRequest.write(sAjaxFlashUrl);</script>
+<div id="head-skin">
+<div id="body">
+  	
+
+
+<div id="blog-gnb">
+<div class="log">
+	
+	
+		<a href="https://nid.naver.com/nidlogin.login?mode=form&url=http://blog.naver.com/kohaku3533/140190608270" target="_top"><img src="http://blogimgs.naver.net/nblog/spc.gif" width="51" height="18" class="login" alt="로그인" /></a>
+	
+	
+	
+</div>
+
+<div class="gnb">
+	<ul>
+	
+		<li class="i3"><a href="http://blog.naver.com/MyBlog.nhn" class="link" target="_top">내 블로그</a> <img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" /></li>
+	
+		<li class="i4">
+		<a href="https://nid.naver.com/nidlogin.login?mode=form&url=http://blog.naver.com/kohaku3533" class="link" target="_top">이웃블로그</a>
+		
+		
+		<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+		<div id="buddydiv" style="position: relative; z-index: 20; display: none;">
+		<div id="buddylist"></div>
+		</div>
+		</li>
+		<li class="i2"><a href="http://section.blog.naver.com" class="link" target="_top">모두의 블로그</a> <img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" /></li>
+		<li class="i1"><a href="#" class="link _shortcut _returnFalse _param(shortcut)" id="shortcutLink">바로가기 <img src="http://blogimgs.naver.net/nblog/spc.gif" width="15" height="15" class="go-down" id="shortcut" alt="" /></a>
+
+			<div id="Directlydiv" class="_shortcutMenu _param(shortcut)" style="position:relative;z-index:20;visibility:hidden;">
+				<div id="gnb-direct1" style="position:absolute; top:4px; left:-9px;">
+					<ul>
+						<li><a href="http://www.naver.com" target="_top">네이버홈</a></li>
+						<li class="me _naverMe"><a href="http://me.naver.com" target="_top">me</a></li>
+						<li><a href="http://me2day.net" target="_top">미투데이</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://apps.naver.com" target="_top">소셜앱스</a></li>
+						<li><a href="http://item.naver.com" target="_top">아이템</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://mail.naver.com" target="_top">메일</a></li>
+						<li><a href="http://cafe.naver.com" target="_top">카페</a></li>
+					</ul>
+					<ul class="last">
+						<li><a href="http://blog.naver.com/RandomBlog.nhn" target="_top">랜덤블로그</a></li>
+						
+						<li><a href="http://help.naver.com/ops/step1/query.nhn" target="_blank">신고센터</a></li>
+						
+					</ul>
+				</div>
+			</div>
+
+		</li>
+		
+	</ul>
+</div>
+</div>
+<!-- blog_gnb -->
+
+<div id="highlight_turn_on" class="highlight_off _hightlightOpen" style="display:none;"><button type="button" class="btn_op _hightlightOpen">검색어 켜기</button></div>
+
+<hr /><hr />
+
+	<div id="whole-border"><div id="whole-head"></div><div id="whole-body">
+	
+	<div id="top-area">
+	  	      
+      
+      
+      
+      <div id="blog-music" class="widget" style="display:none">
+          <script type="text/javascript">
+              
+			      
+			          var vurl="/versioning/common/swf/Music/NBMPlayer_1line-51915.swf";
+			      
+			      
+			  
+          </script>
+      </div>
+      
+      
+
+
+
+
+
+
+
+
+
+	
+
+
+<div id="blog-title">
+<table><tr><td id="blogTitleText"><a id="blog-title-anchor" href="http://blog.naver.com/prologue/PrologueList.nhn?blogId=kohaku3533"><span id="blogTitleName" class="itemtitlefont">하쿠의 끝없는 항로 </span></a></td></tr></table>
+</div><hr />
+
+
+
+<div id="blog-menu">
+	<div class="border">
+		<table><tr><td nowrap="nowrap" class="menu1">
+			<ul>
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://blog.naver.com/prologue/PrologueList.nhn?blogId=kohaku3533&skinType=&skinId=&from=menu"  id="prologue" class="off itemfont _param(false|prologue||)">프롤로그</a>
+				
+				</li>
+			
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://blog.naver.com/PostList.nhn?blogId=kohaku3533&skinType=&skinId=&from=menu"  id="blog" class="on itemfont _param(false|blog||)">블로그</a>
+				<img src="http://blogimgs.naver.net/imgs/ico_n.gif">
+				</li>
+			
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://blog.naver.com/PostThumbnailList.nhn?blogId=kohaku3533&categoryNo=43&parentCategoryNo=43&skinType=&skinId=&from=menu"  id="category" class="off itemfont _param(false|category|43|)">자동차이야기</a>
+				<img src="http://blogimgs.naver.net/imgs/ico_n.gif">
+				</li>
+			
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://blog.naver.com/PostThumbnailList.nhn?blogId=kohaku3533&categoryNo=44&parentCategoryNo=44&skinType=&skinId=&from=menu"  id="category" class="off itemfont _param(false|category|44|)">IT,노트북,PC,핸드폰</a>
+				
+				</li>
+			
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://blog.naver.com/PostThumbnailList.nhn?blogId=kohaku3533&categoryNo=24&skinType=&skinId=&from=menu"  id="category" class="off itemfont _param(false|category|24|)">부산맛집,전국여행</a>
+				<img src="http://blogimgs.naver.net/imgs/ico_n.gif">
+				</li>
+			
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://blog.naver.com/PostThumbnailList.nhn?blogId=kohaku3533&categoryNo=71&skinType=&skinId=&from=menu"  id="category" class="off itemfont _param(false|category|71|)">후쿠오카맛집,여행</a>
+				
+				</li>
+			
+			
+			</ul></td><td nowrap="nowrap" class="menu2">
+			<ul>
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://blog.naver.com/mapview/MapView.nhn?blogId=kohaku3533&skinType=&skinId=&from=menu"  class="off itemfont _doNclick _param(false|mapview)">지도</a>
+				
+
+				
+				</li>
+			
+
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://blog.naver.com/library/LibraryView.nhn?blogId=kohaku3533&skinType=&skinId=&from=menu"  class="off itemfont _doNclick _param(false|library)">서재</a>
+				
+
+				
+				</li>
+			
+
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://blog.naver.com/memo/MemologPostList.nhn?blogId=kohaku3533&Redirect=MemoList&skinType=&skinId=&from=menu"  class="off itemfont _doNclick _param(false|memolog)">메모</a>
+				
+
+				
+				</li>
+			
+
+			
+			
+				<li>
+				<img src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="11" class="bar" alt="" />
+				<a href="http://guestbook.blog.naver.com/guestbook/GuestBookList.nhn?blogId=kohaku3533&skinType=&skinId=&from=menu"  class="off itemfont _doNclick _param(false|guestbook)">안부</a>
+				
+
+				
+				</li>
+			
+
+			
+
+			</ul>
+		</td></tr></table>
+	</div>
+</div><hr />
+	</div>
+	<div id="wrapper" class="clearfix">
+		
+		<div id="top-tight-area" class="side-width"><div class="side-border"><div class="side-head"></div>
+			<div class="side-body onestyle">
+
+
+
+<div id="blog-profile" class="widget">
+	
+	<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+</div>
+<div class="division-line-x"></div>
+
+
+<div id="blog-counter" class="widget">
+</div>
+<div class="division-line-x"></div>
+
+
+<div class="widget" style="height:214px" id="externalwidget_1279674">
+	<iframe id="ExternalWidgetIframe_1279674" name="ExternalWidgetIframe_1279674" scrolling="no" frameborder="0" allowtransparency="true" style="width:170px;display:none;" title="외부위젯"></iframe>
+</div>
+<div class="division-line-x"></div>
+
+
+<div id="blog-stat" class="widget">
+	<div class="cm-border">
+		<div class="cm-head">
+			<h3 class="component"><span class="cm-icol">활동정보</span></h3>
+		</div>
+		<div class="cm-body" id="widget-stat">
+		
+		<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
+		<div class="cm-footer"></div>
+	</div>
+</div>
+<div class="division-line-x"></div>
+
+<div class="widget" style="height:214px" id="externalwidget_1175846">
+	<iframe id="ExternalWidgetIframe_1175846" name="ExternalWidgetIframe_1175846" scrolling="no" frameborder="0" allowtransparency="true" style="width:170px;display:none;" title="외부위젯"></iframe>
+</div>
+<div class="division-line-x"></div><div class="clear"></div></div><!-- side-body -->
+
+	    <div class="side-footer"></div></div></div><!-- left-area -->
+		
+	<div id="twocols" class="clearfix">
+		<div id="content-area" class="">
+			
+
+
+
+
+
+<div id="post-area">
+	
+            
+			
+	
+        
+	
+
+        	
+				
+				
+				
+
+					
+
+          			
+          				
+		            		
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/common/js/global/RemoveSubDomain-124754.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://static.plugin.me2day.com/js/naver_plugins_v1.js"></script>
+<script type="text/javascript">
+
+
+
+
+
+
+var isAutoPlayYN = false;
+
+
+var tagOpenModeType = '0';
+var tagMarkDisplayIfPostTagEmpty = false;
+
+var categoryNo = '7';
+var parentCategoryNo = '0';
+var categoryParentCategoryNo = '43';
+var currentCategoryNo;
+if(categoryNo=="" && parentCategoryNo == ""){ 
+	currentCategoryNo = 0;
+}else if((categoryNo=="" || categoryNo=="0") && parentCategoryNo != ""){  
+	currentCategoryNo = parentCategoryNo;
+}else if(categoryNo!=""){  
+	currentCategoryNo = categoryNo;
+}
+
+var viewDate = '' || ''; 
+
+
+
+var isFromSearch = false;	
+var isFromSection = true;	
+
+var forFocusingTargetId = "category-name";
+
+var isFirstPage = true;	
+var from = 'section';	
+var search_logNo = "140190608270";
+
+var postListTopCurrentPage = '1';
+var categoryName = "CAR+Life";
+
+
+var thumbnailListCurrentPage = '';
+var thumbnailListHasNextPage = '';
+var thumbnailListHasPreviousPage = '';
+
+
+var userTopListCurrentPage = "";
+var userTopListCount = "";
+var userTopListOpen = false; 
+var userTopListManageOpen = false; 
+var isTopListOpen = false; 
+var topListPostCount = "10"; 
+
+var isTopListCategoryEmpty = false;
+if (!isTopListCategoryEmpty) {
+	isTopListOpen = false; 
+	topListPostCount = "5"; 
+}
+
+var isThumbnailList = false;
+var isThumbnailView = false;
+
+var aPostSendInfo = [];
+var aPostBaseInfo = [];
+var aPostFiles = [];
+var aPostImageFileSizeInfo = [];
+var aPostAutoSourcingHtmlView = [];
+var aQueuePost = []; 
+var htInitData = [];
+
+
+
+var paramLogNo = '140190608270';
+var isAfterWrite = false;
+var gdidTag = [];
+var nsc = "blog.post";
+var nFirstLogNo = "";
+var pagePerPostCount = 1;
+
+
+var sFocusingCommentNo = '';	
+var isCommentAreaOpen = false;
+var postBottomOptionalAreaType = '0';
+var commentAreaOpenType = '1';
+var isRelayAreaOpen = false;
+var isSympathyAreaOpen = false;
+var relayAreaOpenType = '2';
+var firstPostLogNo = "140190608270";
+
+var sClpboardFlashUrl = '/versioning/common/swf/Clipboard/clipboard_jindo2-86499.swf';
+var searchImg = '';
+var searchVid = '';
+
+
+var currentPage = '1';
+var tagParam = '' || '&logNo=140190608270';
+
+
+var imageWidth = '' || '936';
+
+
+var maxNoticePostCount = '5';
+
+var draw_socialplugin = function() {nhn.socialplugin.drawMultiSpiLayer(htInitData);};
+
+
+
+
+
+
+
+
+
+	
+		nFirstLogNo = "140190608270";		//addpost에서 사용함.
+	
+	
+	gdidTag[1] = "90000003_0000000000000020A402EB8E";
+	aPostAutoSourcingHtmlView[1] = "<p style='margin:11px 0 7px 0;padding:0;font-size:12px;font-family:Dotum;font-style:normal;font-weight: normal;'><strong style='padding:0 7px 0 0;'>[출처]</strong> <a href='http://blog.naver.com/kohaku3533/140190608270' target='_blank'>500마력 이상만 참가하는 슈퍼카 드래그 레이스 드래그타임즈 Unlim 500+</a><span style='padding:0 7px 0 5px;'>|</span><strong style='padding:0 7px 0 0;'>작성자</strong> <a href='http://blog.naver.com/kohaku3533' target='_blank'>하쿠</a></p>";
+	aPostFiles[1] = [];
+	
+	aPostImageFileSizeInfo[1] = {'/20130606_54/kohaku3533_13704533776456aSRb_JPEG/465946_481683875217700_405864345_o.jpg': '135,283|465946_481683875217700_405864345_o.jpg' , '/20130606_86/kohaku3533_13704533779937JHxi_JPEG/unlim-500-10jpg.jpg': '177,953|unlim-500-10jpg.jpg' , '/20130606_68/kohaku3533_1370453378191fSV12_JPEG/moscow-unlim-5002011-16jpg.jpg': '147,517|moscow-unlim-5002011-16jpg.jpg' , '/20130606_107/kohaku3533_1370453378330vFCkP_JPEG/unlim-500jpg_small_1.jpg': '156,916|unlim-500jpg_small_1.jpg' , '/20130606_149/kohaku3533_1370453378612tdpvn_JPEG/10_1200_web.jpg': '106,937|10_1200_web.jpg' , '/20130606_250/kohaku3533_13704533788631kNEl_JPEG/02100.jpg': '119,970|02100.jpg' , '/20130606_72/kohaku3533_1370453379366It2Sf_JPEG/DSC_02621.jpg': '98,140|DSC_02621.jpg' , '/20130606_131/kohaku3533_13704533798317pEQJ_JPEG/704528_472204232832331_311029229_o.jpg': '166,478|704528_472204232832331_311029229_o.jpg' , '/20130606_18/kohaku3533_1370501122592d7cs1_PNG/untitled.png': '1,071,956|untitled.png' , '/20130606_196/kohaku3533_1370501075991V8AbX_JPEG/Manzo-750941.jpg': '113,689|Manzo-750941.jpg' , '/20130606_229/kohaku3533_1370501076212as0Ke_JPEG/Other-Drag_Racing_mp925_pic_69245.jpg': '118,513|Other-Drag_Racing_mp925_pic_69245.jpg'};
+	aPostSendInfo[1] = [];
+	aPostBaseInfo[1] = "140190608270|0|1|1|7|0|false";
+	aQueuePost.push({logNo : '140190608270',tagNames : ''}); 	
+
+
+
+
+
+
+
+
+//<!-- 
+	htInitData[0] = {data: {
+		
+		
+		style  : "text",
+		
+		textClass : "pcol2",
+		barClass : "fil3 pcol2b",
+		align : "right",
+		onLoginRedirect : function() {window.open("https://nid.naver.com/nidlogin.login?svctype=16448&url=" + encodeURIComponent(blogURL + "/post/common/reloadOpenerParentAndClose.jsp"), "", 'width=400px, height=500px, scrollbars=yes, resizable=yes');},
+
+		evkey  : "blog",
+		servicename : "블로그",
+		title  : "500\uB9C8\uB825 \uC774\uC0C1\uB9CC \uCC38\uAC00\uD558\uB294 \uC288\uD37C\uCE74 \uB4DC\uB798\uADF8 \uB808\uC774\uC2A4 \uB4DC\uB798\uADF8\uD0C0\uC784\uC988 Unlim 500+",
+		source : "http://blog.naver.com/kohaku3533/140190608270",
+		me2key : "",
+		tags   : ["네이버블로그", "\uD558\uCFE0\uC758 \uB05D\uC5C6\uB294 \uD56D\uB85C "],
+
+
+		me : {
+			
+			fCallback       : function() {postController.onClickNaverMeSubscribe();},
+			feedInfo        : "블로거의 글이"
+		},
+		
+
+		
+		
+		
+		me2day : {sourceUrl : "http://blog.naver.com/PostView.nhn?blogId=kohaku3533&logNo=140190608270"},
+		
+		
+
+		
+		
+		
+		mail : {
+			srvid   : "blog",
+			srvurl  : "http://bookmark.naver.com/getRichMailTmpl.ajax?sourceUrl="
+			 + encodeURIComponent("http://blog.naver.com/PostView.nhn?blogId=kohaku3533&logNo=140190608270")
+		},
+		facebook : {sourceUrl : "http://blog.naver.com/PostView.nhn?blogId=kohaku3533&logNo=140190608270"},
+		
+		
+
+		cafe : {
+			
+			proxyAction    : "on",
+			proxyActionUrl : "/ScrapToCafe.nhn?blogId=kohaku3533&logNo=140190608270&inAppNavigation=true"
+		},
+		blog : {
+			
+			proxyAction    : "on",
+			proxyActionUrl : "/ScrapToBlog.nhn?blogId=kohaku3533&logNo=140190608270&no=1&loadOnModalView=true&template=modal&isShowingGnb=false"
+		}
+	} , layerId:"spiLayer1"};
+
+
+// 스크립트 오류를 방지하지 위해서 막아논 부분.
+//--> 
+</script>
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/PostTopCommon-284295.js"></script>
+
+<script type="text/javascript">$Ajax.SWFRequest.write(sAjaxFlashUrl);</script>
+		
+
+	
+	
+
+
+
+
+
+
+
+
+
+<div class="division-line-x" id="quickPostTopLine" style="display:none"></div>
+<div class="qk_wrap"  id="quickPostBanner" style="display:none">
+	<div class="qk_post">
+		<p class="msg _qpMessage _postSize _rosRestrictAll" style="font-size:12px">오늘 있었던 일을 퀵에디터로 기록해보세요.</p>
+		<button type="button" class="qkb_post _postSize _rosRestrictAll"><span>포스트쓰기</span></button>
+	</div>
+</div>
+
+<div id="quickPostPromotion" class="qk_layer2" style="display: none">
+	<div class="qk_layer2_inner">
+		<span class="blind">가벼운 글쓰기툴 퀵에디터가 오픈했어요!</span>
+		<a href="http://admin.blog.naver.com//config/quickposting" target="_top" style="top:8px;left:187px"><img src="http://blogimgs.naver.net/nblog/quickeditor/btn_qk_set.gif" width="65" height="14" alt="사용설정하기"></a>
+		<a href="http://section.blog.naver.com/sub/Notice.nhn?board=/read/1000003326/10000000000020964978" target="_blank" style="top:8px;right:32px"><img src="http://blogimgs.naver.net/nblog/quickeditor/btn_what2.gif" width="57" height="14" alt="퀵에디터란?"></a>
+
+		<a href="#" class="clse _returnFalse _closeQuickPostPromotion"><img src="http://blogimgs.naver.net/nblog/quickeditor/btn_clse_ly2.gif" width="15" height="15" alt="설정 닫기"></a>
+	</div>
+</div>
+<div class="division-line-x" id="quickPostBottomLine" style="display:none"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<div class="post" id="category-name" >
+	<div class="post-back">
+		<table class="post-head" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="htl" nowrap="nowrap"></td><td class="htc"></td><td class="htr" nowrap="nowrap"></td>
+			</tr>
+		</table>
+		<table class="post-body" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="bcl" nowrap="nowrap"></td>
+				<td class="bcc">
+					<div class="postlisttitle">
+						
+							
+							
+								<a href="#" class="plist pcol2 hand _toggleTopList itemSubjectBoldfont _returnFalse" tabindex="0">
+									
+										
+										CAR Life
+									
+								</a>
+							
+						
+			  			<span class="pcol2 p11">(<strong class="itemSubjectBoldfont">360</strong>)</span>
+	
+						<span style="display:block" class="fr pcol2 hand">
+							<a href="#" id="toplistBtn" class="pcol2 _toggleTopList itemfont _returnFalse" tabindex="0">목록열기</a>
+							<img id="topListBtnImg" src="http://blogimgs.naver.net/imgs/nblog/spc.gif" width="13" height="13" alt="" class="ico2 _toggleTopList" />
+						</span>
+						<span id="toplistmenu" style="display:none">
+							<span class="tbl_lable pcol2 p12 itemfont">스크랩</span>
+							<span class="tbl_lable pcol2 p12 itemfont">엮인글</span>
+						</span>
+					</div>
+					
+					<div id="toplist" style="display:none;"></div>
+				</td>
+				<td class="bcr" nowrap="nowrap"></td>
+			</tr>
+		</table>
+		<table class="post-footer" cellspacing="0" cellpadding="0">
+	  		<tr><td class="ftl" nowrap="nowrap"></td><td class="ftc"></td><td class="ftr" nowrap="nowrap"></td></tr>
+		</table>
+	</div>
+</div>
+<div class="division-line-x plile"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="postListBody">
+	
+	<div id="post_1" class="post">
+		<div class="post-back">
+			<table class="post-head" cellspacing="0" cellpadding="0"><tr><td class="htl" nowrap="nowrap"></td><td class="htc"></td><td class="htr" nowrap="nowrap"></td></tr></table>
+			<table id="printPost1" class="post-body" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="bcl" nowrap="nowrap"></td>
+					<td class="bcc">
+						<table class="post-top">
+							<tr>
+								<td valign="bottom" class="p12">
+									<div class="htitle" id="title_1">
+									
+									
+									
+									
+										<span class="pcol1 itemSubjectBoldfont">500마력 이상만 참가하는 슈퍼카 드래그 레이스 드래그타임즈 Unlim 500+</span>
+									
+									
+
+									
+										
+										
+											
+											
+											
+										
+										
+										
+									
+									
+										
+											
+											
+											
+										
+										<span class="cate pcol2">
+											<img src="http://blogimgs.naver.net/imgs/nblog/spc.gif" alt="" class="pcol2b fil3" width="1" height="11"/>
+											<a href="/PostList.nhn?blogId=kohaku3533&categoryNo=7&from=postList" class="pcol2">CAR Life</a>
+											
+											 / <a href="/PostList.nhn?blogId=kohaku3533&categoryNo=43&parentCategoryNo=43&from=postList" class="pcol2">자동차이야기</a>
+											
+												
+												
+												
+													<img src="http://blogimgs.naver.net/imgs/nblog/spc.gif" alt="" width="105" height="1" />
+												
+											
+										</span>
+									</div>
+									
+									
+										
+										
+											
+											<p class="date fil5 pcol2 _postAddDate">2013/06/06 03:04</p>
+										
+									
+									
+									<p class="fil3 dline"></p>
+									
+									
+									<p class="url" style="float:right" id="url">
+										<img id="copyBtn" src="http://blogimgs.naver.net/nblog/btn_urlcopy.gif" width="21" title="http://blog.naver.com/kohaku3533/140190608270" height="13" alt="복사" class="btn_urlcopy _setClipboard" />
+										<a href="http://blog.naver.com/kohaku3533/140190608270" target="_top" class="fil5 pcol2">http://blog.naver.com/kohaku3533/140190608270</a>
+									</p>
+
+									
+										<div class="btn_post_v">
+											<a href="#" class="btn_vierw_v btn_atype _open_magazineviewer _param(140190608270|7|0|)" onclick="return false;">
+											<em><span class="pcol2 fil9">전용뷰어 보기</span></em>
+											<span class="tp pcol2b fil3"></span>
+											<span class="rt pcol2b fil3"></span>
+											<span class="bm pcol2b fil3"></span>
+											<span class="lt pcol2b fil3"></span>
+											</a>
+											
+												
+											
+											
+											
+											
+										</div>
+									
+									
+									
+									<div class="clear blank5"></div>
+									<p class="post_option">
+										
+										
+										
+										
+											
+											
+											
+											
+										
+									</p>
+									<div class="post-sub ptr" id="sendPost_from_service_140190608270" style="display:none;">
+										<p><span class="pcol2" id="sendPost_from_service_H_140190608270"></span></p>
+									</div>
+								</td>
+							</tr>
+						</table>
+							
+						<div id="post-view140190608270" class="post-view pcol2 _param(1)">
+							 
+<p style="TEXT-ALIGN: center" align="center"><img src="http://postfiles7.naver.net/20130606_54/kohaku3533_13704533776456aSRb_JPEG/465946_481683875217700_405864345_o.jpg?type=w1" width="900" height="562" style="cursor: pointer;BORDER-BOTTOM-COLOR: rgb(0,0,0); BORDER-TOP-COLOR: rgb(0,0,0); BORDER-RIGHT-COLOR: rgb(0,0,0); BORDER-LEFT-COLOR: rgb(0,0,0); rwidth: 900px; rheight: 562px" id="20130606_54/kohaku3533_13704533776456aSRb_JPEG/465946_481683875217700_405864345_o.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"><br style="CLEAR: both" />전세계에는 수많은 드래그 레이스 대회가 열리고 있습니다만,</p>
+<p style="TEXT-ALIGN: center" align="center">최근 가장 큰 인기를 모으고 있는 드래그 레이스 대회는 </p>
+<p style="TEXT-ALIGN: center" align="center">단연 Unlim 500+ 가 아닌가 생각합니다.</p>
+<p style="TEXT-ALIGN: center" align="center">드래그타임즈 Unlim 500+는 국내에서 인터넷을 검색해도 나오지 않는</p>
+<p style="TEXT-ALIGN: center" align="center">(네이버 검색의 폭이 좁은 때문이지만요)</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;우리나라에는 거의 알려지지 않은 드래그 레이스 대회입니다.&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center"><br style="CLEAR: both" /><img src="http://postfiles7.naver.net/20130606_86/kohaku3533_13704533779937JHxi_JPEG/unlim-500-10jpg.jpg?type=w1" width="900" height="571" style="cursor: pointer;BORDER-BOTTOM-COLOR: rgb(0,0,0); BORDER-TOP-COLOR: rgb(0,0,0); BORDER-RIGHT-COLOR: rgb(0,0,0); BORDER-LEFT-COLOR: rgb(0,0,0); rwidth: 900px; rheight: 571px" id="20130606_86/kohaku3533_13704533779937JHxi_JPEG/unlim-500-10jpg.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"></p>
+<p style="TEXT-ALIGN: center" align="center">Unlim 500+ 는 러시아와 유럽각국에 내노라 하는 </p>
+<p style="TEXT-ALIGN: center" align="center">강력한 슈퍼카들과 튜닝 슈퍼카들이 참가하는 </p>
+<p style="TEXT-ALIGN: center" align="center">드래그 레이스 대회인데요.</p>
+<p style="TEXT-ALIGN: center" align="center">Unlim 500+ 라는 이름에서 보듯이 500마력이 넘는 차들만 참가할수있는 대회입니다.</p>
+<p style="TEXT-ALIGN: center" align="center">Unlim 500+ 참가 차량은 양산차여야 하고 양산형태의 외관을 유지하고 있어야 하며 </p>
+<p style="TEXT-ALIGN: center" align="center">그렇기 때문에 드래그 전용 머신이나 레이스카는&nbsp;참가가 불가하고 </p>
+<p style="TEXT-ALIGN: center" align="center">성능이 높은 슈퍼카나 스포츠카라도 500마력이 넘지 않으면 </p>
+<p style="TEXT-ALIGN: center" align="center">이대회에 참가할수없습니다.</p>
+<p style="TEXT-ALIGN: center" align="center"><br style="CLEAR: both" /><br style="CLEAR: both" /><img src="http://postfiles5.naver.net/20130606_68/kohaku3533_1370453378191fSV12_JPEG/moscow-unlim-5002011-16jpg.jpg?type=w1" width="900" height="600" style="cursor: pointer;BORDER-BOTTOM-COLOR: rgb(0,0,0); BORDER-TOP-COLOR: rgb(0,0,0); BORDER-RIGHT-COLOR: rgb(0,0,0); BORDER-LEFT-COLOR: rgb(0,0,0); rwidth: 900px; rheight: 600px" id="20130606_68/kohaku3533_1370453378191fSV12_JPEG/moscow-unlim-5002011-16jpg.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"><br style="CLEAR: both" />그러다 보니 1000마력이 넘는 부가티 베이론,코닉세그 CCXR 등의 </p>
+<p style="TEXT-ALIGN: center" align="center">초고속 하이퍼카들은 물론이고 </p>
+<p style="TEXT-ALIGN: center" align="center">바이크 대결등에서는 초고성능 바이크인 스즈끼 하야부사(GSX1300R)등도 볼수 있습니다.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center"><br style="CLEAR: both" /><img src="http://postfiles12.naver.net/20130606_107/kohaku3533_1370453378330vFCkP_JPEG/unlim-500jpg_small_1.jpg?type=w1" width="775" height="516" style="cursor: pointer;BORDER-BOTTOM-COLOR: rgb(0,0,0); BORDER-TOP-COLOR: rgb(0,0,0); BORDER-RIGHT-COLOR: rgb(0,0,0); BORDER-LEFT-COLOR: rgb(0,0,0); rwidth: 775px; rheight: 516px" id="20130606_107/kohaku3533_1370453378330vFCkP_JPEG/unlim-500jpg_small_1.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"></p>
+<p style="TEXT-ALIGN: center" align="center">일반적인 상황에서는 700마력대의 람보르기니도 엄청난 차량이지만 </p>
+<p style="TEXT-ALIGN: center" align="center">드래그타임즈 Unlim 500+ 에서는 </p>
+<p style="TEXT-ALIGN: center" align="center">그보다 더 강력하고 빠른 튜닝카인 포르쉐 911터보 Switzer R800(800마력)이나 </p>
+<p style="TEXT-ALIGN: center" align="center">900마력 가까이 튜닝된 콜벳 ZR1 LTE 머신들도 다른차들에게 </p>
+<p style="TEXT-ALIGN: center" align="center">점이 되어 버리는 상황도 속출합니다.</p>
+<p style="TEXT-ALIGN: center" align="center"><br style="CLEAR: both" /><br style="CLEAR: both" /><img src="http://postfiles6.naver.net/20130606_149/kohaku3533_1370453378612tdpvn_JPEG/10_1200_web.jpg?type=w1" width="900" height="562" style="cursor: pointer;BORDER-BOTTOM-COLOR: rgb(0,0,0); BORDER-TOP-COLOR: rgb(0,0,0); BORDER-RIGHT-COLOR: rgb(0,0,0); BORDER-LEFT-COLOR: rgb(0,0,0); rwidth: 900px; rheight: 562px" id="20130606_149/kohaku3533_1370453378612tdpvn_JPEG/10_1200_web.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"><br style="CLEAR: both" />람보르기니 무르시엘라고 SV같은 경우도 드래그타임즈 Unlim 500+에서는 </p>
+<p style="TEXT-ALIGN: center" align="center">느린차에 속하는 말도 안되는 상황이 전개되는데요.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center"><br style="CLEAR: both" /><img src="http://postfiles11.naver.net/20130606_250/kohaku3533_13704533788631kNEl_JPEG/02100.jpg?type=w1" width="900" height="562" style="cursor: pointer;BORDER-BOTTOM-COLOR: rgb(0,0,0); BORDER-TOP-COLOR: rgb(0,0,0); BORDER-RIGHT-COLOR: rgb(0,0,0); BORDER-LEFT-COLOR: rgb(0,0,0); rwidth: 900px; rheight: 562px" id="20130606_250/kohaku3533_13704533788631kNEl_JPEG/02100.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"><br style="CLEAR: both" />상위권에 오르기 위해서는 적어도 1000마력 이상이 되는 </p>
+<p style="TEXT-ALIGN: center" align="center">부가티 베이론급의 가속력을 지녀야만 살아 남을 수 있습니다.</p>
+<p style="TEXT-ALIGN: center" align="center"><br style="CLEAR: both" /><br style="CLEAR: both" /><br style="CLEAR: both" /><img src="http://postfiles9.naver.net/20130606_72/kohaku3533_1370453379366It2Sf_JPEG/DSC_02621.jpg?type=w1" width="900" height="386" style="cursor: pointer;BORDER-BOTTOM-COLOR: rgb(0,0,0); BORDER-TOP-COLOR: rgb(0,0,0); BORDER-RIGHT-COLOR: rgb(0,0,0); BORDER-LEFT-COLOR: rgb(0,0,0); rwidth: 900px; rheight: 386px" id="20130606_72/kohaku3533_1370453379366It2Sf_JPEG/DSC_02621.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"><br style="CLEAR: both" />745마력 콜벳 ZR1 LPE 투닝카와 1024마력 코닉세그 CCXR과의 대결</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center"><iframe height="315" src="http://www.youtube.com/embed/qODE05r0jiA?list=PL97C529A7B6C79705" frameborder="0" width="560" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="TEXT-ALIGN: center" align="center">제 블로그 음악을 끄시고 1080P 고해상도로 플레이 하세요.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">올해 2013년 드래그타임즈 Unlim 500+에서의 우승은 아래사진의 </p>
+<p style="TEXT-ALIGN: center" align="center">1700마력의 닛산 GT-R AMS Alpha 12+ 튜닝카가 차지했습니다.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;<img src="http://postfiles4.naver.net/20130606_131/kohaku3533_13704533798317pEQJ_JPEG/704528_472204232832331_311029229_o.jpg?type=w1" width="900" height="599" style="cursor: pointer;BORDER-BOTTOM-COLOR: rgb(0,0,0); BORDER-TOP-COLOR: rgb(0,0,0); BORDER-RIGHT-COLOR: rgb(0,0,0); BORDER-LEFT-COLOR: rgb(0,0,0); rwidth: 900px; rheight: 599px" id="20130606_131/kohaku3533_13704533798317pEQJ_JPEG/704528_472204232832331_311029229_o.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"></p>
+<p style="TEXT-ALIGN: center" align="center">닛산 GT-R AMS Alpha 12+ 는 최종 타임어택에서 </p>
+<p style="TEXT-ALIGN: center" align="center">0-1000m(1km)&nbsp; 22.538초 1km지점 통과속도 382km/h 를 기록했습니다.</p>
+<p style="TEXT-ALIGN: center" align="center">초반 스타트시 엄청난 파워로 인해 미션트러블이나 슬립을 줄이기 위해 </p>
+<p style="TEXT-ALIGN: center" align="center">조금 느린 스타트를 해야 하는 닛산 GT-R AMS Alpha 12+ 이였지만 </p>
+<p style="TEXT-ALIGN: center" align="center">시곡 100km/h 이후의 가속력은 엄청나다 못해 전율이 느껴질 정도입니다.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">닛산 GT-R AMS Alpha 12+ 튜닝카의 정지에서 시속 300km/h 까지 걸리는 시간은&nbsp;단 12.37초 </p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center"><iframe height="360" src="http://www.youtube.com/embed/6MzpaNu74Ts" frameborder="0" width="640" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="TEXT-ALIGN: center" align="center">제 블로그 음악을 끄시고 1080P 고해상도로 플레이 하세요.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">중간 영상을 보면 엄청난 괴물머신으로 알려진 1100마력의 포르쉐 911 GT2 9ff</p>
+<p style="TEXT-ALIGN: center" align="center">(빠른 가속과 엄청난 파워를 노면에 전달할 트랙션 유지를&nbsp;위해 4륜구동시스템으로 튜닝)</p>
+<p style="TEXT-ALIGN: center" align="center">의 무력함을 확인 하실수 있습니다.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">드래그타임즈 Unlim 500+ 대회가 지금은 러시아와 유럽지역의 차들만 참가하고 있지만 </p>
+<p style="TEXT-ALIGN: center" align="center">고성능 튜닝 슈퍼카가 많은 미국,일본등이 참가하게 되면 </p>
+<p style="TEXT-ALIGN: center" align="center">더 박진감 넘치는 대회가 될 것 같습니다.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">2013 &nbsp;드래그타임즈 Unlim 500+ 소식이였습니다.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center"><!-- Not Allowed Attribute Filtered ( bgcolor="#ffffff") --><embed autostart="false" invokeURLs="false" EnableContextMenu="false" height="80" type="application/x-shockwave-flash" width="400" src="http://api.v.daum.net/static/recombox1.swf?nid=45727709" quality="high"  allowScriptAccess="never" allowNetworking="all" enableHtmlAccess="false" AllowHtmlPopupwindow="true"></embed> </p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">아래의 사진들은 위의 양산 튜닝카들과는 다른 드래그 레이스 전용 레이싱 머신들입니다.</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center"><img src="http://postfiles3.naver.net/20130606_18/kohaku3533_1370501122592d7cs1_PNG/untitled.png?type=w1" width="900" height="562" style="cursor: pointer;BORDER-BOTTOM-COLOR: rgb(0,0,0); BORDER-TOP-COLOR: rgb(0,0,0); BORDER-RIGHT-COLOR: rgb(0,0,0); BORDER-LEFT-COLOR: rgb(0,0,0); rwidth: 900px; rheight: 562px" id="20130606_18/kohaku3533_1370501122592d7cs1_PNG/untitled.png" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"><br style="CLEAR: both" /><br style="CLEAR: both" /><img src="http://postfiles5.naver.net/20130606_196/kohaku3533_1370501075991V8AbX_JPEG/Manzo-750941.jpg?type=w1" width="900" height="599" style="cursor: pointer; rwidth: 900px; rheight: 599px" id="20130606_196/kohaku3533_1370501075991V8AbX_JPEG/Manzo-750941.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"><br style="CLEAR: both" /><br style="CLEAR: both" /><img src="http://postfiles6.naver.net/20130606_229/kohaku3533_1370501076212as0Ke_JPEG/Other-Drag_Racing_mp925_pic_69245.jpg?type=w1" width="900" height="600" style="cursor: pointer; rwidth: 900px; rheight: 600px" id="20130606_229/kohaku3533_1370501076212as0Ke_JPEG/Other-Drag_Racing_mp925_pic_69245.jpg" onclick="popview(this, '90000003_0000000000000020A402EB8E')" alt="" class="_photoImage"><br style="CLEAR: both" />&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+<p style="TEXT-ALIGN: center" align="center">&nbsp;</p>
+						</div>
+
+						
+
+					
+					
+					
+
+					
+					
+						<div class="post_footer_contents">
+						<!--
+						[0]
+						[]
+						-->
+
+						
+						
+						
+						
+
+							
+							
+							
+								<div class="post-tag pcol2 _param(false|false)" id="tagList_140190608270" style="display:none;cursor:default;"></div>
+							
+
+							
+
+						
+						
+
+							<div class="post-tag pcol2" style="display:none">
+								<input type=text class="tag_inp" title="태그를 입력해 주세요" value="" />
+								<a href="#" class="pcol2 _saveTag _rosRestrict _returnFalse _param(140190608270)">태그저장</a>
+								<img src="http://blogimgs.naver.net/imgs/nblog/spc.gif" alt="" class="fil3 pcol2b" width="1" height="11" />
+								<a href="#" class="pcol2 _cancelTag _returnFalse _param(140190608270)" >취소</a>
+								<span style="display:none"></span>
+							</div>
+							
+							
+							<div class="ico_ccl">
+								<div id="post_ccl_1" class="ccl_layer" style="display:none;bottom:25px;right:-8px;">
+									<div class="shadow01"><div class="shadow01_side"><div class="shadow02"><div class="shadow02_side">
+										<div class="content">
+											<p><strong>이 저작물은 아래 조건 만족 시<br>별도 허가 없이 사용 가능합니다 </strong></p>
+											<ul>
+											<li>저작자 명시 필수</li><li>영리적 사용 불가</li><li>내용 변경 불가</li>
+											</ul>
+											<div class="ccl_layer_position right_position"></div>
+										</div>
+									</div></div></div></div>
+								</div>
+								<a href="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/" target="_blank" class="_cclInfoWindow _param(post_ccl_1)"><img src="http://blogimgs.naver.net/imgs/nblog/blank.gif" width="51" height="15" alt="CCL" style="background:url(http://blogimgs.naver.net/nblog/skins/ccl/ico_post_sccl-by-nc-nd.png) no-repeat;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://blogimgs.naver.net/nblog/skins/ccl/ico_post_sccl-by-nc-nd.png',sizingMethod='image');_background:none"></a>
+							</div>
+							
+						</div>
+
+						<div class="post-btn">
+							<div class="postedit">
+								
+									<img src="http://blogimgs.naver.net/imgs/nblog/spc.gif" alt="" class="fil3 pcol2b" width="1" height="13" />
+									<span id="post-scrap-text_140190608270" class="print"><a href="#" class="pcol2 _printPost _returnFalse _param(140190608270)">인쇄</a>
+									</span>
+								
+								
+								
+								
+							</div>
+							
+							
+							
+							<div id="spiLayer1" class="posts2plug"></div>
+
+							<p class="postre">
+							
+								<img src="http://blogimgs.naver.net/imgs/nblog/spc.gif" alt="" class="ico2" id="Com1" width="13" height="13" style="vertical-align:middle;"  />
+							
+							
+								<strong><a href="#" class="pcol2 _cmtList _param(1|1|140190608270|0) _returnFalse" id="Comi140190608270" tabindex="0">덧글 33</a></strong>
+							
+							
+								<img src="http://blogimgs.naver.net/nblog/ico_new.gif" width="10" height="9" alt="NEW" class="new" />
+							
+							
+								<img src="http://blogimgs.naver.net/imgs/nblog/spc.gif" alt="" class="fil3 pcol2b" width="1" height="13" />
+							
+							
+								<strong><a href="#" class="pcol2 _repList _param(2|1|140190608270|0) _activeId _returnFalse" id="Rew140190608270" tabindex="0">엮인글 </a></strong>
+							
+							
+							
+								<img src="http://blogimgs.naver.net/imgs/nblog/spc.gif" alt="" class="fil3 pcol2b" width="1" height="13"/>
+							
+							
+								<strong><a href="#" class="pcol2 _symList _param(3|1|140190608270|0) _returnFalse" id="Sympathy140190608270" tabindex="0">공감 29</a></strong>
+							
+							
+								<span class="pcol2">
+								<a href="#" class="btn_ept btn_atype _sympathy _rosRestrict _param(140190608270|0|1) _returnFalse">
+								<em class="pcol2 fil9 _activeId">공감하기</em>
+								<span class="tp pcol2b fil3"></span>
+								<span class="rt pcol2b fil3"></span>
+								<span class="bm pcol2b fil3"></span>
+								<span class="lt pcol2b fil3"></span>
+								</a>
+								</span>
+							
+							</p>
+						</div>
+
+						
+						
+						<iframe id="RewFrm140190608270" allowtransparency="true" src="" width="100%" height="1" style="display:none" scrolling="no" frameborder="0" title="엮인글"></iframe>
+						
+						<iframe id="CommentFrm140190608270" allowtransparency="true" src="" width="100%" height="1" style="display:none" scrolling="no" frameborder="0" title="덧글"></iframe>
+						
+						<iframe id="sympathyFrm140190608270" allowtransparency="true" src="" width="100%" height="1" style="display:none" scrolling="no" frameborder="0" title="공감처리"></iframe>
+
+						<span id="adPostInjectArea_140190608270"></span>
+
+						
+					</td>
+					<td class="bcr" nowrap="nowrap"></td>
+				</tr>
+			</table>
+			<table class="post-footer" cellspacing="0" cellpadding="0"><tr><td class="ftl" nowrap="nowrap"></td><td class="ftc"></td><td class="ftr" nowrap="nowrap"></td></tr></table>
+		</div>
+	</div>
+	<div class="division-line-x plile"></div>
+	
+		
+	
+
+	
+	
+</div>
+
+
+	
+	
+		
+		
+		
+		
+
+
+
+<div id="postListBottom" style="display: block;">
+	<div class="post">
+		<div class="post-back">
+			<table cellspacing="0" cellpadding="0" class="post-head">
+				<tbody>
+					<tr>
+						<td class="htl"></td>
+						<td class="htc"></td>
+						<td class="htr"></td>
+					</tr>
+				</tbody>
+			</table>
+			<table cellspacing="0" cellpadding="0" class="post-body">
+				<tbody>
+					<tr>
+						<td class="bcl"></td>
+						<td class="bcc">
+							<div id="bottom-list">
+								<table class="post-top">
+									<tbody>
+										<tr>
+											<td valign="bottom">
+											<!-- [D] 첫번째 타이틀에 lst_t_frt 클래스 적용 -->
+												<div class="improve-list-tit lst_t_frt">
+													<h5 class="pcol2">
+														
+															
+															
+																
+																	
+																	'<span class="pcol3">CAR Life</span>' 카테고리의 다른 글
+																
+															
+														
+													</h5>
+													<div class="ialist">
+														<em class="b_lk pcol2"><a href="/PostList.nhn?blogId=kohaku3533&from=postList" class="pcol2"><span>전체 포스트 보기</span></a></em>
+													</div>												
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<table cellspacing="0" cellpadding="0" border="0" class="improve-list">
+									<tbody id="postBottomTitleListBody">
+										
+									</tbody>
+								</table>								
+								<div class="bottom_paging tc">
+									<table class="page-navigation" summary="페이지 네비게이션">
+										<tbody>
+											<tr id="postBottomTitleListNavigation">
+											</tr>
+										</tbody>
+									</table>
+									<div class="tline"><img width="100%" height="1" class="fil3 pcol2b" src="http://blogimgs.naver.net/nblog/spc.gif"></div>
+									<div class="itop _toTop"></div>
+								</div>
+								
+								
+							</div>
+							
+						</td>
+						<td class="bcr"></td>
+					</tr>
+				</tbody>
+			</table>
+			<table cellspacing="0" cellpadding="0" class="post-footer">
+				<tbody>
+					<tr>
+						<td class="ftl"></td>
+						<td class="ftc"></td>
+						<td class="ftr"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/PostViewBottom-545767.js"></script>
+
+<script type="text/javascript">
+	
+	postViewBottomTitleListController.start(blogId, firstPostLogNo, 'false' == 'true', parentCategoryNo, currentCategoryNo, categoryName, viewDate, '1370455441917', from);
+	
+	var highlighting = true;
+</script>
+
+
+
+		
+	
+
+
+
+
+
+
+<div id="multime2Layer" class="layer_style display_none"></div>
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/PostBottomCommon-2569376.js"></script>
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/PostBottomCommon_utf8-145916.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+new InstallBlogAppPush();
+
+var adPostObject = new AdPostObject();
+adPostObject.sBlogId = blogId;
+adPostObject.sAdPostSecurityParam = "+zHTnkrCzcclovjVRaxew3T/s6rHo5nLsCyk747rKHo=";
+adPostObject.oContentShareObject = g_ContentShareObject || {};
+adPostObject.bExistAdPost = true;
+adPostObject.bUseAdPostInSide = false;
+adPostObject.nCategoryDirectorySeq = "0";
+adPostObject.nFirstLogNo = nFirstLogNo;
+
+	adPostObject.addAdPostList("140190608270", "25", "0", "false","1370517385170");
+
+var adPostInject = new AdPostInject(adPostObject);
+adPostInject.injectAdPost();
+</script>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<!-- 	<script Type="text/javascript" Src="http://openapi.map.naver.com/openapi/openapi_v23.js"></script> -->
+
+
+
+
+
+          				
+		          		
+          				
+          			
+
+				
+		  	
+
+	
+</div>
+
+		</div><hr />
+	</div>
+		
+		<div id="bottom-tight-area" class="side-width"><div class="side-border"><div class="side-head"></div>
+			<div class="side-body onestyle">
+
+
+
+<div id="blog-category" class="widget">
+
+<input type="hidden" id="categoryNo" name="categoryNo" value="" ></input>
+</div>
+<div class="division-line-x"></div>
+
+
+
+
+	
+		
+	
+	
+	
+
+
+<div id="blog-search" class="widget">
+<form name="searchfrm" id="searchfrm"  method="GET" action="http://blog.naver.com/PostSearchList.nhn">
+	<h3><span>검색</span></h3>
+	<input type="text" name="SearchText" class="inp" style="ime-mode:active;" value=""/><input type="hidden" name="blogId" value="kohaku3533" /><input type="image" src="http://blogimgs.naver.net/nblog/spc.gif" width="1" height="1" class="btn" alt="검색" />
+</form>
+</div>
+<div class="division-line-x"></div>
+
+
+<div class="widget" style="height:214px" id="externalwidget_1225676">
+	<iframe id="ExternalWidgetIframe_1225676" name="ExternalWidgetIframe_1225676" scrolling="no" frameborder="0" allowtransparency="true" style="width:170px;display:none;" title="외부위젯"></iframe>
+</div>
+<div class="division-line-x"></div>
+
+
+<div id="blog-rss" class="widget">
+  <a href="http://blog.rss.naver.com/kohaku3533.xml" target="_blank" class="rss1"><span class="no">RSS 2.0</span></a>
+  <a href="http://blog.rss.naver.com/kohaku3533.xml?rss=1.0" target="_blank" class="rss2"><span class="no">RSS 1.0</span></a>
+  <a href="http://blog.rss.naver.com/kohaku3533.xml?atom=0.3" target="_blank" class="rss3"><span class="no">ATOM 0.3</span></a>
+</div>
+<div class="division-line-x"></div>
+
+
+<div id="widget-visitorgp" class="widget"></div>
+<div class="division-line-x"></div><div class="clear"></div></div><!-- side-body -->
+
+	    <div class="side-footer"></div></div></div><hr />
+		
+		<div id="bottom-area">
+     		
+		</div>
+	</div><hr />
+</div><div id="whole-footer"></div></div>
+<div id="blog-sign"></div>
+</div>
+<div id="bottom-skin"></div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<div id="avoid_facebook_crawling_layer" style="display:none;">
+	<p>안녕하세요.<br/>이 포스트는 네이버 블로그에서 작성된 게시글입니다.<br/>자세한 내용을 보려면 링크를 클릭해주세요.<br/>감사합니다.</p>
+</div>
+
+<div id="travel_closing_popup" class="travel_closing_popup" style="width:350px; display:none; cursor: default; position:absolute;">
+	<div class="border_type">
+		<div class="content3">
+			<h5 class="gr" style="margin:10;">글 보내기 서비스 안내</h5>
+			<p class="ulayer" style="margin:10;">2009년 6월 30일 네이버 여행 서비스가 종료되었습니다.<br/> 네이버 여행 서비스를 이용해 주신 여러분께 감사드리며, <br/>더 좋은 서비스로 보답할 수 있도록 노력하겠습니다.<br/></p>
+			<div align="center"><a href="#" class="btn_confirm _returnFalse _closeLayer _param(travel_closing_popup)"><img src="http://static.naver.com/common/btn/btn_confirm2.gif" border="0"></a></div>
+			<br />
+			<a href="#" class="closelayer _returnFalse _closeLayer _param(travel_closing_popup)"><img src="http://blogimgs.naver.net/nblog/mylog/post/btn_thin_close.gif" width="13" height="10" alt="" class="btn_close"></a>
+		</div>
+	</div>
+</div>
+
+
+<div style="display:none;" class="addfile_layer" id="fileLayer">
+	<div class="layer_contents"><ul><li></li></ul>
+	<a href="#" class="clse _closeLayer _param(fileLayer) _returnFalse"><img width="9" height="9" class="btn_close" src="http://blogimgs.naver.net/imgs/btn_close8.gif"/></a>
+	</div>
+	<span class="shadow shadow1"></span><span class="shadow shadow2"></span><span class="shadow shadow3"></span>
+</div>
+
+	
+	<div id="layer_msg">
+	<div class="layer_hashfilter" id="malwareAlertLayer" style="width:390px;display:none;z-index:99999">
+		<h2>악성코드가 포함되어 있는 파일입니다.</h2>
+		<p class="file"><img src="http://blogimgs.naver.net/nblog/mylog/post/ico_file.gif" width="11" height="10" alt="파일">{FILENAME}</p>
+
+		<p>백신 프로그램으로 치료하신 후 다시 첨부하시거나, 치료가 어려우시면<br>파일을 삭제하시기 바랍니다.</p> <!-- 100513 -->
+		<a href="http://security.naver.com/index.nhn" target="_blank" class="vaccine_link">네이버 백신으로 치료하기</a>
+		<p class="info_text">고객님의 PC가 악성코드에 감염될 경우 시스템성능 저하,<br>개인정보 유출등의 피해를 입을 수 있으니 주의하시기 바랍니다.</p>
+		<div class="btns">
+			<a href="FILEPATH" class="downloadBtn"><img src="http://blogimgs.naver.net/nblog/mylog/post/btn_download2.gif" width="73" height="26" alt="다운로드"></a>
+			<a href="#" class="_closeMalwareAlertLayer _returnFalse"><img src="http://blogimgs.naver.net/nblog/mylog/post/btn_cancel3.gif" width="45" height="26" alt="취소"></a>
+		</div>
+		<a href="#" class="close _closeMalwareAlertLayer _returnFalse"><img src="http://blogimgs.naver.net/imgs/btn_close3.gif" width="19" height="19" border="0" alt="닫기"></a>
+	</div>
+	
+	<div class="layer_hashfilter layer_filter2" id="blockAlertLayer" style="display:none;z-index:99999">
+		<h2>고객님외에 다른 방문자에게는 이용이 제한되었습니다.</h2>
+		<p>{ALERTMESSAGE}</p>
+		<p class="rst">이용제한 파일 : {FILENAME}</p>
+
+		<div class="btns">
+			<a href="FILEPATH" class="downloadBtn" id="blockAlertDownloadBtn"><img src="http://blogimgs.naver.net/nblog/mylog/post/btn_download2.gif" width="73" height="26" alt="다운로드"></a>
+			<a href="#" class="_closeBlockAlertLayer _returnFalse"><img src="http://blogimgs.naver.net/nblog/mylog/post/btn_cancel3.gif" width="45" height="26" alt="취소"></a>
+		</div>
+		<a href="#" class="close _closeBlockAlertLayer _returnFalse"><img src="http://blogimgs.naver.net/imgs/btn_close3.gif" width="19" height="19" border="0" alt="닫기"></a>
+	</div>
+	</div>
+
+
+<div id="sendInfoLayer" style="display:none;" class="send_post_layer">
+	<div class="layer_contents" id="sendInfoLayerDiv"></div>
+	<a href="#"><img width="13" height="12" class="btn_close" src="http://blogimgs.naver.net/nblog/mylog/post/btn_close5.gif"/></a>
+	<span class="shadow shadow"></span><span class="shadow shadow2"></span><span class="shadow shadow3"></span>
+</div>
+
+
+<div style="position:absolute; top:0; left: -10000px; width: 320px;" class="post_layer" id="sendPostLayer">
+	<div class="shadow01">
+	<div class="shadow01_side">
+	<div class="shadow02">
+	<div class="shadow02_side">
+		<div class="border_type">
+			<div class="content" id="layerContent"></div>
+			<div class="btn">
+				<a href="#" id="sendPostLayerBtn" class="_deletePostConfirm _returnFalse _closeLayer _param(sendPostLayer)" target="_blank"><img src="http://blogimgs.naver.net/nblog/mylog/post/btn_confirm.gif" width="38" height="21" alt="확인"></a>
+				<a href="#" class="_closeLayer _param(sendPostLayer) _returnFalse"><img src="http://blogimgs.naver.net/nblog/mylog/post/btn_cancel.gif" width="38" height="21" alt="취소"></a>
+			</div>
+			<a href="#" class="close _closeLayer _param(sendPostLayer) _returnFalse"><img src="http://blogimgs.naver.net/nblog/btn_close_1.gif" alt="닫기" width="15" height="14"></a>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+</div>
+
+
+<input type="hidden" name="logtype" id="logtype" value="mylog"></input>
+
+
+
+<form id="saveTagName" name="saveTagName" method="post" action="/BlogTagNameRegist.nhn" target="saveTagNameFrame">
+	<input type="hidden" name="blogId" value="kohaku3533" />
+	<input type="hidden" name="logNo" />
+	<input type="hidden" name="chtagname" />
+	<input type="hidden" name="logType" value="mylog"/>
+	<input type="hidden" name="directEdit" value="Y" />
+</form>
+
+
+<iframe name="saveTagNameFrame" id="saveTagNameFrame" src="" style="display:none" width="0" height="0" title="포스트별 태그정보 저장용 프레임"></iframe>
+
+
+<div id="scrapMenuBody" style="z-index:100; position:absolute; display:none;"><table width="135" cellspacing="1" cellpadding="0" border="0" bgcolor="#888888"><tr><td id="scrapMenuBodyTD"></td></tr></table><div style="width:135px;height:1px;border-top:1px solid #000;opacity:0.05;filter:alpha(opacity=5)"></div></div>
+
+
+
+<form name="scrapFrm" method="post" style="display:none;" action="">
+	<input type='hidden' name='hasVideo' value=''>
+    <input type='hidden' name='hasLayoutPhoto' value=''>
+    <input type='hidden' name='hasSlidePhoto' value=''>
+    <input type='hidden' name='hasStoryPhoto' value=''>
+    <input type='hidden' name='hasNaverMap' value=''>
+    <input type='hidden' name='hasCalendar' value=''>
+	<input type='hidden' name='blogId' value=''/>
+	<input type='hidden' name='source_type' value=''/>
+	<input type='hidden' name='source_type_real' value=''/>
+	<input type="hidden" name="source_form" value=""/>
+	<input type='hidden' name='valid' value='0'/>
+	<input type='hidden' name='logNo' value=''/>
+	<input type='hidden' name='source_no' value=''/>
+	<input type='hidden' name='source_blogId' value=''/>
+	<input type='hidden' name='source_nickname' value=''/>
+	<input type='hidden' name='source_paperno' value=''/>
+	<input type='hidden' name='source_openYn' value=''/>
+	<input type='hidden' name='source_sumyn' value=''/>
+	<input type='hidden' name='source_sumtext' value=''/>
+	<input type="hidden" name="source_url" value=''/>
+	<input type="hidden" name="sourceSmartEditorVersion" value=''/>
+	<textarea name='attach' style='display:none;'></textarea>
+	<textarea name='source_title' style='display:none;'></textarea>
+	<textarea name='title' style='display:none;'></textarea>
+	<textarea name='source_contents' style='display:none;'></textarea>
+</form>
+
+
+<form name="scrapFrmCafe" method="post" style="display:none;" action="">
+    <input type='hidden' name='hasVideo' value=''>
+    <input type='hidden' name='hasLayoutPhoto' value=''>
+    <input type='hidden' name='hasSlidePhoto' value=''>
+    <input type='hidden' name='hasStoryPhoto' value=''>
+    <input type='hidden' name='hasNaverMap' value=''>
+    <input type='hidden' name='hasCalendar' value=''>
+	<input type='hidden' name='source_clubid' value=''/>
+	<input type='hidden' name='clubid' value=''/>
+	<input type='hidden' name='articleid' value=''/>
+	<input type='hidden' name='source_type' value=''/>
+	<input type='hidden' name='source_type_real' value=''/>
+	<input type="hidden" name="source_form" value=''/>
+	<input type='hidden' name='valid' value=''/>
+	<input type='hidden' name='source_categoryno' value=''/>
+	<input type='hidden' name='source_no' value=''/>
+	<input type='hidden' name='source_memberid' value=''/>
+	<input type='hidden' name='source_nickname' value=''/>
+	<input type='hidden' name='source_paperno' value=''/>
+	<input type='hidden' name='source_openYn' value=''/>
+	<input type="hidden" name="source_url" value=''/>
+	<textarea name='attach' style='display:none;'></textarea>
+	<textarea name='source_title' style='display:none;'></textarea>
+	<textarea name='title' style='display:none;'></textarea>
+	<textarea name='source_contents' style='display:none;'></textarea>
+	<input type='hidden' name='blogId' value=''/>
+	<input type='hidden' name='logNo' value=''/>
+</form>
+
+
+<form name="deletePostFrm" method="post" style="display:none;" action="">
+    <input type='hidden' name='blogId' value=''>
+    <input type='hidden' name='cpage' value=''>
+    <input type='hidden' name='categoryNo' value=''>
+    <input type='hidden' name='parentCategoryNo' value=''>
+    <input type='hidden' name='viewDate' value=''>
+    <input type='hidden' name='sourceCode' value=''>
+	<input type='hidden' name='logNo' value=''/>
+	<input type='hidden' name='currentPage' value=''/>
+</form>
+
+
+<div id="ExifInfoBtn" style="display: none;position:absolute;" class="btn_exif"><a href="#" class="_showExifInfoLayer _returnFalse"><img height="20" width="80" alt="사진정보 보기" src="http://blogimgs.naver.net/nblog/mylog/post/btn_viewexif.gif"/></a></div>
+<div id="ExifInfoBtnWithDirectSave" style="display: none;position:absolute;" class="btn_exif"><a href="#"  class="_saveSourceImage _returnFalse"><img width="80" height="20" alt="원본 저장하기"  src="http://blogimgs.naver.net/nblog/mylog/post/btn_originaldn.gif" ></a>
+<a href="#" class="_showExifInfoLayer _returnFalse"><img height="20" width="80" alt="사진정보 보기" src="http://blogimgs.naver.net/nblog/mylog/post/btn_viewexif.gif"/></a><ul id="SaveOption" class="save_opt _saveOptionLayer"><li><a href="#" class="toPC _returnFalse">내PC 저장</a></li><li><a href="#" class="toNDrive _returnFalse">N드라이브 저장</a></li></ul></div>
+<div id="ExifInfoLayer" style="display:none;" class="detail_exif">
+	<a class="_ellipsisHelper _ellipsis _param(120)" style="display:none;font-size:11px;font-family:'돋움',Dotum;"></a>
+	<div>
+		<a href="#" class="_closeLayer _param(ExifInfoLayer) _returnFalse"><img height="21" width="21" class="close _ExifCloseBtn" src="http://blogimgs.naver.net/imgs/nblog/spc.gif"/></a>
+		<img height="14" width="69" class="tit" alt="사진정보보기" src="http://blogimgs.naver.net/nblog/mylog/post/tit_viewexif.gif"/><br/>
+		<dl>
+			<dt>카메라 모델</dt>
+			<dd class="_model"></dd>
+			<dt>해상도</dt>
+			<dd class="_resolution"></dd>
+			<dt>노출시간</dt>
+			<dd class="_exposure"></dd>
+			<dt>노출보정</dt>
+			<dd class="_correct"></dd>
+			<dt>프로그램모드</dt>
+			<dd class="_program"></dd>
+			<dt>ISO감도</dt>
+			<dd class="_iso"></dd>
+			<dt>조리개값</dt>
+			<dd class="_iris"></dd>
+			<dt>초점길이</dt>
+			<dd class="_focus"></dd>
+			<dt>측광모드</dt>
+			<dd class="_ttl"></dd>
+			<dt>촬영일시</dt>
+			<dd class="_date"></dd>
+		</dl>
+	</div>
+</div>
+
+<div class="cp_layer_popup" style="width:370px; display:none" id="sendPostBlockLayerById">
+	<div class="shadow1"><div class="shadow1_side"><div class="shadow2"><div class="shadow2_side">
+		<div class="border_type">
+			<h4 class="header">&nbsp;</h4>
+			<div class="content">
+				<dl class="cp_noti" >
+					<dt><img src="http://blogimgs.naver.net/nblog/ico_notice2.gif" width="29" height="26" alt=""></dt>
+					<dd>저작권 침해가 우려되는 컨텐츠가 포함되어 있어<br/> 글보내기 기능을 제한합니다. </dd>
+				</dl>
+				<div class="cp_noti_desc">
+					<p>네이버는 블로그를 통해 저작물이 무단으로 공유되는 것을 막기 위해,
+						저작권을 침해하는 컨텐츠가 포함되어 있는 게시물의 경우 글보내기 기능을 제한하고 있습니다.</p>
+					<p>상세한 안내를 받고 싶으신 경우 네이버 고객센터로 문의주시면 도움드리도록 하겠습니다.
+						건강한 인터넷 환경을 만들어 나갈 수 있도록 고객님의 많은 관심과 협조를 부탁드립니다.</p>
+				</div>
+			</div>
+			<a href="#BtnCLose" class="closelayer" onclick="$Element($('sendPostBlockLayerById')).hide();"><img src="http://blogimgs.naver.net/nblog/book/publishingcompany/btn_close.gif" alt="닫기" width="15" height="14"></a>
+		</div>
+	</div></div></div></div>
+</div>
+
+<div class="cp_layer_popup" style="width:370px; display:none" id="sendPostBlockModifyLayerById">
+	<div class="shadow1"><div class="shadow1_side"><div class="shadow2"><div class="shadow2_side">
+		<div class="border_type">
+			<h4 class="header">&nbsp;</h4>
+			<div class="content">
+				<dl class="cp_noti" >
+					<dt><img src="http://blogimgs.naver.net/nblog/ico_notice2.gif" width="29" height="26" alt=""></dt>
+					<dd>저작권 침해가 우려되는 컨텐츠가 포함되어 있어<br/> 주제 분류 기능을 제한합니다.</dd>
+				</dl>
+				<div class="cp_noti_desc">
+					<p>네이버는 블로그를 통해 저작물이 무단으로 공유되는 것을 막기 위해,
+						저작권을 침해하는 컨텐츠가 포함되어 있는 게시물의 경우 주제 분류 기능을 제한하고 있습니다.</p>
+					<p>상세한 안내를 받고 싶으신 경우 네이버 고객센터로 문의주시면 도움드리도록 하겠습니다.
+						건강한 인터넷 환경을 만들어 나갈 수 있도록 고객님의 많은 관심과 협조를 부탁드립니다.</p>
+				</div>
+			</div>
+			<a href="#BtnCLose" class="closelayer" onclick="$Element($('sendPostBlockModifyLayerById')).hide();"><img src="http://blogimgs.naver.net/nblog/book/publishingcompany/btn_close.gif" alt="닫기" width="15" height="14"></a>
+		</div>
+	</div></div></div></div>
+</div>
+
+
+<form method="post" action="http://blog.naverblogwidget.com/ExternalWidgetRender.nhn?blogId=kohaku3533" name="ExternalWidgetForm">
+	<input type="hidden" name="reversedWidgetCode"/>
+	<input type="hidden" name="blogId"/>
+	<input type="hidden" name="isSocialAppProfileWidget"/>
+</form>
+
+
+<form name="loginForm" method="post" action="https://nid.naver.com/nidlogin.login?mode=form">
+	<input type="hidden" name="url" value="" />
+</form>
+
+
+<div id="c_layer_popup" style="position:absolute;display:none;">
+	<!--[if lt IE 7]>
+	<iframe width="1000px" height="1000px" style="overflow:hidden;position:absolute;top:0;left:0;" frameborder="0" title="빈프레임"></iframe>
+	<![endif]-->
+	<p class="c_desc00">작성하신 <strong><span>게시글</span>에 사용이 제한된 문구가 포함</strong>되어 일시적으로 <br /> 등록이 제한됩니다.</p>
+	<div class="c_contents">
+		<p class="c_desc01">이용자 분들이 홍보성 도배, 스팸 게시물로 불편을 겪지 않도록<br /> 다음과 같은 경우 해당 게시물 등록이 일시적으로 제한됩니다.</p>
+		<ul class="c_desc02">
+			<li>특정 게시물 대량으로 등록되거나 해당 게시물에서 자주 사용하는<br />
+			  문구가 포함된 경우</li>
+			<li>특정 게시물이 과도하게 반복 작성되거나 해당 게시물에서 자주 사용하는<br />문구가 포함된 경우</li>
+		</ul>
+		<p class="c_desc03">스팸 게시물이 확대 생성되는 것을 방지하기 위하여 문구 및 사용 제한기간을<br />상세하게 안내해 드리지 못하는 점 양해 부탁 드립니다. 모두가 행복한 인터넷<br />문화를 만들기 위한 네이버의 노력이오니 회원님의 양해와 협조 부탁드립니다.</p>
+		<p class="c_desc04">더 궁금하신 사항은 <a href="http://help.naver.com/service/exMailQuestion.jsp?question_gubn=service&TBID=TBOX20081030000000&sub_tb_id=TBOX20081030000001&Addoption1278=서비스명&Addoption" target="_blank">고객센터</a>로 문의하시면 자세히 알려드리겠습니다.</p><!-- //090708 -->
+		<p class="c_desc05">수정하신 후 다시 등록해 주세요.</p>
+	</div>
+	<div class="c_footer"><button type="button" onclick="if(wordCheck) wordCheck.hideDialog();">확인</button><button type="button" class="c_close" onclick="if(wordCheck) wordCheck.hideDialog();"><img src="http://blogimgs.naver.net/static/common/popup/btn_close3.gif" width="15" height="14" alt="닫기" /></button></div>
+</div>
+
+
+<div id="loginstart_layer" class="layerpopup" style="z-index:199;width:380px; top:100px; left:414px; display:none;">
+	<div class="shadow1"><div class="shadow1_side">
+	<div class="shadow2"><div class="shadow2_side">
+	<div class="shadow3"><div class="shadow3_side">
+		<div class="border_type">
+			<div class="logbox_wrap">
+				<p class="notice">회원님의 안전한 서비스 이용을 위해 <strong>비밀번호를 확인해 주세요.</strong></p>
+				<p class="notice02">다시 한번 <strong>비밀번호 확인</strong> 하시면 이용중인 화면으로 돌아가며, 작성 중이던<br>내용을 정상적으로 전송 또는 등록하실 수 있습니다.</p>
+				<a href="#" onClick="loginObj.closeLayeredLogin(); return false;" class="closelayer"><img src="http://blogimgs.naver.net/nblog/widget/btn_close.gif" alt="닫기" width="15" height="14"></a>
+				<div class="frame_wrap"><iframe id="layeredframe" src="about:blank" width="350" height="163" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="레이어용 프레임"></iframe></div>
+			</div>
+		</div>
+	</div></div>
+	</div></div>
+	</div></div>
+</div>
+
+
+<div id="captcha_layer" class="layerpopup" style="z-index:-1;width:504px; top:0px; left:0px; display:none;">
+	<div class="frame_wrap"><iframe id="captchalayeredframe" src="about:blank" width="504" height="252" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="안부게시판 캡차"></iframe></div>
+</div>
+
+
+<div id="day_write_limit_layer"  class="layerpopup" style="position:absolute;top:350px;left:50px;z-index:999;font-family:'돋움',dotum;font-size:12px;color:#666;line-height:16px; display:none;">
+	<div style="width:306px;height:161px;padding:0 20px;border:2px solid #666;background:#fff">
+		<div style="margin:24px 0 10px -1px;padding:0;color:#333">
+			<strong>1일 안부글 작성횟수를 초과하셨습니다.</strong>
+		</div>
+		<div style="width:100%;margin-left:-1px">
+			네이버 블로그에서는 프로그램을 이용한<br>
+			안부글 자동등록 방지를 위해 1일 안부글 작성횟수에<br>
+			제한을 두고 있습니다.
+		</div>
+		<div style="margin-top:16px;padding-top:9px;border-top:1px solid #e5e5e5;letter-spacing:-1px;text-align:center">
+			<a href="#" onClick="writeLimitObj.closeLayeredWriteLimit('day'); return false;"  ><img src="http://blogimgs.naver.net/nblog/guestbook/btn_ok.gif" width="47" height="27" alt="확인" border="0"  /></a>
+		</div>
+		<a href="#" onClick="writeLimitObj.closeLayeredWriteLimit('day'); return false;" class="closelayer"><img src="http://blogimgs.naver.net/nblog/guestbook/btn_close2.gif" width="14" height="14" alt="닫기"  border="0" /></a>
+	</div>
+</div>
+
+
+<div id="reported_write_limit_layer" class="layerpopup" style="position:absolute;top:560px;left:50px;z-index:999;font-family:'돋움',dotum;font-size:12px;color:#666;line-height:16px; display:none;">
+	<div style="width:341px;height:231px;padding:0 20px;border:2px solid #666;background:#fff">
+		<div style="margin:24px 0 10px -1px;padding:0;color:#333">
+			<strong>1일 안부글 작성횟수를 초과하셨습니다.</strong>
+		</div>
+		<div style="width:100%;margin-left:-1px">
+			고객님이 남기신 안부글에 대한 다수의 신고가 접수되어<br>
+			1일 안부글 작성 횟수가 <span style="color:#2cae0c"><strong>5회</strong>로 제한</span>되었습니다.
+			<p id="blockedDate" style="margin:0;padding:7px 0 15px 1px"></p>
+			네이버 블로그는 여러 사람이 함께 모여 즐거움을 나누는<br>
+			공간으로 모든 분들이 기분좋게 블로그를 이용할 수 있도록<br>
+			고객님의 이해와 협조 부탁 드립니다.
+		</div>
+		<div style="margin-top:16px;padding-top:9px;border-top:1px solid #e5e5e5;letter-spacing:-1px;text-align:center">
+			<a href="#" onclick="writeLimitObj.closeLayeredWriteLimit('reported'); return false;" class="closeLayer"><img src="http://blogimgs.naver.net/nblog/guestbook/btn_ok.gif" width="47" height="27" alt="확인"></a>
+		</div>
+		<a href="#" onclick="writeLimitObj.closeLayeredWriteLimit('reported'); return false;" class="closeLayer" style="position:absolute;top:10px;right:10px"><img src="http://blogimgs.naver.net/nblog/guestbook/btn_close2.gif" width="19" height="19" alt="닫기"></a>
+	</div>
+</div>
+
+
+<div id="hbeanLeverageLayer" style="z-index:101; position:absolute; top:100px; right:10px; overflow:hidden; display:block;" ></div>
+
+<script type="text/template" id="tpl_list">
+<table cellspacing="0" cellpadding="0" class="thumb_list" align="center">
+	<tr>
+		<td class="thumb_list_left"><a href="#"  class="_oPhotoPaginateMove _returnFalse _param(Previous)"><img src="http://blogimgs.naver.net/nblog/mylog/post/btn_thumb_prev{=ison_prev}.gif" width="17" height="17" alt="이전"></a></td>
+		{=items}
+		<td class="thumb_list_right"><a href="#"  class="_oPhotoPaginateMove _returnFalse _param(Next)"><img src="http://blogimgs.naver.net/nblog/mylog/post/btn_thumb_next{=ison_next}.gif" width="17" height="17" alt="다음"></a></td>
+	</tr>
+</table>
+<div class="top"><a href="#"><span class="pcol2"><em>▲</em> top</span></a></div>
+</script>
+<script type="text/template" id="tpl_item">
+<td class="thumb_list_item"><a href="/PostThumbnailView.nhn?blogId={=blogId}&logNo={=logNo}&categoryNo={=categoryNo}&parentCategoryNo={=parentCategoryNo}" class="_setTop {=isOn}"><img src="{=imgUrl}" width="120" height="90" onerror="this.onerror='';this.src='http://blogimgs.naver.net/nblog/mylog/post/no_data_120_90.gif';" />{=isVideo}</a></td>
+</script>
+<script type="text/template" id="tpl_video">
+<img width="28" height="31" class="ic_play" src="http://blogimgs.naver.net/nblog/mylog/post/blank.gif"/>
+</script>
+
+
+<style type="text/css">
+	.layerpop2{position:absolute; z-index:999; font:normal 12px 돋움,Dotum; color:#333; overflow:hidden; display:none;}
+	.layerpop2 .border_type{position:relative; border:solid 2px #777; background-color:#fff;}
+	.layerpop2 .close{position:absolute; top:8px; right:8px;}
+	.layerpop2 .content1{padding:30px 30px 21px; border-bottom:solid 1px #f0f0f0;}
+	.layerpop2 .content1 h6{font-weight:bold; font-size:14px; padding-bottom:22px; margin:0; color:#333;}
+	.layerpop2 .subtext{font-size:11px; color:#999; margin:0; padding:7px 0 0; line-height:16px; letter-spacing:-1px; text-align:left;}
+	.layerpop2 .check{width:13px; height:13px; vertical-align:middle; padding:0 3px 2px 0; margin-left:2px;}
+	.layerpop2 .btn1{background-color:#fbfbfb; border-top:solid 1px #f7f7f7; text-align:center; margin:0; padding:11px 0 20px;}
+	.layerpop2 .btn1 img{margin:0 1px; vertical-align:top;}
+	</style>
+<div id="sympathyDeleteLayer" class="layerpop2" style="background:#FFF; display:none; width:326px; top:200px; left:50px;">
+	<div class="border_type">
+		<div class="content1">
+		<h6>공감을 삭제하시겠습니까?</h6>
+		<p class="subtext">이 포스트의 공감수도 함께 차감됩니다.</p>
+		<input type="checkbox" id="registerBlacklistCheck" class="check" checked="checked"/> <label >선택한 블로거를 블랙리스트ID로 등록합니다.</label>
+		<p class="subtext">블랙리스트로 등록시 공감 및 덧글 작성 등이 <br/> 제한되며 방문흔적이 남지 않습니다.</p>
+		</div>
+		<p class="btn1" id="sympathyLayer_deleteBtn" style="padding:10px;">
+			<a href="#"><img src="http://blogimgs.naver.net/imgs/btn_confirm_pop2.gif" width="55" height="27" alt="확인" /></a><a href="#" class="_deleteFormClose _returnFalse"><img src="http://blogimgs.naver.net/imgs/btn_cancel_pop2.gif" width="55" height="27" alt="취소" /></a>
+		</p>
+		<a href="#" class="close _deleteFormClose _returnFalse"><img src="http://blogimgs.naver.net/static/ws/btn_close.gif" alt="닫기" width="15" height="14"></a>
+	</div>
+</div>
+
+<script type="text/javascript">
+if (!window.nhn) window.nhn = {};
+if (!window.nhn.Blog) window.nhn.Blog = {};
+if (!window.nhn.Blog.SocialApp) window.nhn.Blog.SocialApp = {};
+
+var gsNDriveUrl = "http://ndrive.naver.com";
+</script>
+
+
+<script type="text/javascript" src="http://t.static.blog.naver.net/mylog/versioning/LayoutBottomCommon-7505752.js"></script>
+<script type="text/javascript" event="FSCommand(command,args)" for="flashPlayer">
+	DoFSMusicPlayerCommand(command, args);
+</script>
+<script type="text/javascript">
+function openLoginPopup() {
+	var closeUrl = blogURL + "/post/common/reloadOpenerParentAndClose.jsp";
+	window.open(idURLSecret + "/nidlogin.login?mode=form&template=plogin&url="+closeUrl,"loginPopup","width=400,height=267");
+	return;
+}
+
+var HappyBeanLayer = $Class({
+	oTid : null,
+	$init : function() {
+		if (isHappyBeanLeverage) {
+			this.oTid = setInterval($Fn(function(){
+				if($Ajax.SWFRequest.activeFlash){
+					this.callHappyBeanLeverage()
+					clearInterval(this.oTid);
+				}
+			},this).bind(),500)
+		//	setTimeout(this.callHappyBeanLeverage,900);
+		}
+	},
+
+	callHappyBeanLeverage : function () {
+		new $Ajax(hbeanLeverageApiURL, {
+			type : 'flash',
+			method : 'get',
+			sendheader : false,
+			decode : false,
+			onload : function(res) {
+				var oResult = eval('(' + res.text().replace(/[\n\r\t]/g,"")+ ')');
+				var el  = $Element("hbeanLeverageLayer");
+				if (oResult.isPunished) {
+					el.html("");
+				} else {
+					var decodedHtml = decodeURIComponent(oResult.html.replace(/^\s\s*/, '').replace(/\s\s*$/, ''));
+					if (decodedHtml.match(/^<div.*/g)) {
+						el.html(decodedHtml);
+					}
+				}
+				el.show();
+			}
+		}).request({'reqparam':hbeanLeverageParam});
+	},
+
+	close : function() {
+		$Element("hbeanLeverageLayer").hide();
+	}
+});
+var happyBeanLayer = new HappyBeanLayer();
+
+var blogId = 'kohaku3533';
+
+var oSocialAppBox = new SocialAppAppBoxController();
+</script>
+<script type="text/javascript">
+if ( typeof nsc == 'undefined') {
+	nsc = "blog.post";
+}
+
+var ccsrv="cc.naver.com";
+var nclk_evt = 3;
+nclk_do();
+
+
+if(checkMusicActiveX){
+	checkMusicActiveX.attachInstallLink();
+}
+</script>
+
+
+
+
+</body>
+</html>
