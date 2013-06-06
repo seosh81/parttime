@@ -1,0 +1,45 @@
+<date>2013/04/09 화</date>
+<date2>06-09</date2>
+<wea>구름 조금</wea>
+<code>02</code>
+<t_low>7</t_low>
+<t_high>10</t_high>
+
+
+n_t
+
+
+Main_map.xml
+
+
+
+<date>2012/04/09 월</date>
+<wea>박무</wea>
+<code>17</code>
+<n_t>11</n_t>
+<t_min>8</t_min>
+<t_max>18</t_max>
+
+
+
+
+
+http://jhweather1.cafe24.com/Main_100.xml
+http://jhweather1.cafe24.com/Map_Now_Fct.xml
+
+112
+108
+101
+105
+115
+133
+131
+184
+146
+156
+159
+143
+904
+152
+138
+165

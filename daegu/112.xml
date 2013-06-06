@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PopupWeather>
+<Info area="인천" time="2013-03-13 11:40">
+<Area>인천</Area>
+<A_code>112</A_code>
+<Now>
+<date>2013/03/13 수</date> 
+<wea>구름많음</wea> 
+<code>03</code> 
+<n_t>6</n_t> 
+<f_t>1</f_t> 
+<n_h>77</n_h> 
+<n_s>7.1</n_s> 
+<n_d>북</n_d>
+<n_rain>15.5</n_rain>
+</Now>
+<Daily_1>
+<date>2013/03/13 수</date> 
+<date2>06-09</date2> 
+<wea>흐림</wea> 
+<code>04</code> 
+<t_low>4</t_low> 
+<t_high>5</t_high> 
+<p_rain>30</p_rain> 
+</Daily_1>
+<Daily_2>
+<date>2013/03/13 수</date> 
+<date2>09-18</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t_low>5</t_low> 
+<t_high>8</t_high> 
+<p_rain>10</p_rain> 
+</Daily_2>
+<Daily_3>
+<date>2013/03/13 수</date> 
+<date2>18-21</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t_low>2</t_low> 
+<t_high>5</t_high> 
+<p_rain>10</p_rain> 
+</Daily_3>
+<Daily_4>
+<date>2013/03/14 목</date> 
+<date2>06-09</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t_low>-1</t_low> 
+<t_high>1</t_high> 
+<p_rain>10</p_rain> 
+</Daily_4>
+<Daily_5>
+<date>2013/03/14 목</date> 
+<date2>09-18</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t_low>1</t_low> 
+<t_high>7</t_high> 
+<p_rain>10</p_rain> 
+</Daily_5>
+<Daily_6>
+<date>2013/03/14 목</date> 
+<date2>18-21</date2> 
+<wea>맑음</wea> 
+<code>01</code> 
+<t_low>4</t_low> 
+<t_high>5</t_high> 
+<p_rain>0</p_rain> 
+</Daily_6>
+<Time_1>
+<date>2013/03/13 수</date> 
+<date2>15</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>8</t> 
+<f_t>5</f_t> 
+<p_rain>10</p_rain>
+<rain>-</rain>
+<n_h>35</n_h> 
+<n_s>5</n_s> 
+<n_d>북서</n_d>
+</Time_1>
+<Time_2>
+<date>2013/03/13 수</date> 
+<date2>18</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>5</t> 
+<f_t>1</f_t> 
+<p_rain>10</p_rain>
+<n_h>45</n_h> 
+<n_s>6</n_s> 
+<n_d>북서</n_d>
+</Time_2>
+<Time_3>
+<date>2013/03/13 수</date> 
+<date2>21</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>2</t> 
+<f_t>-3</f_t> 
+<p_rain>10</p_rain>
+<n_h>55</n_h> 
+<n_s>6</n_s> 
+<n_d>북서</n_d>
+</Time_3>
+<Time_4>
+<date>2013/03/13 수</date> 
+<date2>24</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>1</t> 
+<f_t>-3</f_t> 
+<p_rain>10</p_rain>
+<n_h>65</n_h> 
+<n_s>4</n_s> 
+<n_d>북</n_d>
+</Time_4>
+<Time_5>
+<date>2013/03/14 목</date> 
+<date2>03</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>0</t> 
+<f_t>-3</f_t> 
+<p_rain>10</p_rain>
+<rain>-</rain>
+<n_h>60</n_h> 
+<n_s>2</n_s> 
+<n_d>북</n_d>
+</Time_5>
+<Time_6>
+<date>2013/03/14 목</date> 
+<date2>06</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>-1</t> 
+<f_t>-4</f_t> 
+<p_rain>10</p_rain>
+<n_h>65</n_h> 
+<n_s>2</n_s> 
+<n_d>북</n_d>
+</Time_6>
+<Time_7>
+<date>2013/03/14 목</date> 
+<date2>09</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>1</t> 
+<f_t>-1</f_t> 
+<p_rain>10</p_rain>
+<n_h>55</n_h> 
+<n_s>2</n_s> 
+<n_d>북동</n_d>
+</Time_7>
+<Time_8>
+<date>2013/03/14 목</date> 
+<date2>12</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>5</t> 
+<f_t>3</f_t> 
+<p_rain>10</p_rain>
+<n_h>45</n_h> 
+<n_s>3</n_s> 
+<n_d>남서</n_d>
+</Time_8>
+<Time_9>
+<date>2013/03/14 목</date> 
+<date2>15</date2> 
+<wea>맑음</wea> 
+<code>01</code> 
+<t>7</t> 
+<f_t>4</f_t> 
+<p_rain>0</p_rain>
+<rain>-</rain>
+<n_h>35</n_h> 
+<n_s>4</n_s> 
+<n_d>서</n_d>
+</Time_9>
+<Time_10>
+<date>2013/03/14 목</date> 
+<date2>18</date2> 
+<wea>맑음</wea> 
+<code>01</code> 
+<t>5</t> 
+<f_t>1</f_t> 
+<p_rain>0</p_rain>
+<n_h>35</n_h> 
+<n_s>5</n_s> 
+<n_d>서</n_d>
+</Time_10>
+<Time_11>
+<date>2013/03/14 목</date> 
+<date2>21</date2> 
+<wea>맑음</wea> 
+<code>01</code> 
+<t>4</t> 
+<f_t>1</f_t> 
+<p_rain>0</p_rain>
+<n_h>40</n_h> 
+<n_s>4</n_s> 
+<n_d>북서</n_d>
+</Time_11>
+<Time_12>
+<date>2013/03/14 목</date> 
+<date2>24</date2> 
+<wea>맑음</wea> 
+<code>01</code> 
+<t>3</t> 
+<f_t>0</f_t> 
+<p_rain>0</p_rain>
+<n_h>45</n_h> 
+<n_s>3</n_s> 
+<n_d>북</n_d>
+</Time_12>
+<Time_13>
+<date>2013/03/15 금</date> 
+<date2>03</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>1</t> 
+<f_t>-1</f_t> 
+<p_rain>10</p_rain>
+<rain>-</rain>
+<n_h>45</n_h> 
+<n_s>2</n_s> 
+<n_d>북동</n_d>
+</Time_13>
+<Time_14>
+<date>2013/03/15 금</date> 
+<date2>06</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>-1</t> 
+<f_t>-4</f_t> 
+<p_rain>10</p_rain>
+<n_h>55</n_h> 
+<n_s>2</n_s> 
+<n_d>남동</n_d>
+</Time_14>
+<Time_15>
+<date>2013/03/15 금</date> 
+<date2>09</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>2</t> 
+<f_t>-0</f_t> 
+<p_rain>10</p_rain>
+<n_h>40</n_h> 
+<n_s>2</n_s> 
+<n_d>남서</n_d>
+</Time_15>
+<Time_16>
+<date>2013/03/15 금</date> 
+<date2>12</date2> 
+<wea>구름 조금</wea> 
+<code>02</code> 
+<t>6</t> 
+<f_t>3</f_t> 
+<p_rain>10</p_rain>
+<n_h>25</n_h> 
+<n_s>4</n_s> 
+<n_d>남서</n_d>
+</Time_16>
+<Week_0>
+<date>2013/03/13 수</date> 
+<wea>구름조금</wea> 
+<code>02</code> 
+<t_low>3</t_low> 
+<t_high>8</t_high> 
+<p_rain>10</p_rain> 
+<s_s>06:48</s_s>
+<s_r>18:38</s_r>
+</Week_0>
+<Week_1>
+<date>2013/03/14 목</date> 
+<wea>구름조금</wea> 
+<code>02</code> 
+<t_low>-1</t_low> 
+<t_high>7</t_high> 
+<p_rain>10</p_rain> 
+<s_s>06:46</s_s>
+<s_r>18:39</s_r>
+</Week_1>
+<Week_2>
+<date>2013/03/15 금</date> 
+<wea>구름조금</wea> 
+<code>02</code> 
+<t_low>-1</t_low> 
+<t_high>8</t_high> 
+<p_rain>10</p_rain> 
+<s_s>06:45</s_s>
+<s_r>18:40</s_r>
+</Week_2>
+<Week_3>
+<date>2013/03/16 토</date> 
+<wea>구름조금</wea> 
+<code>02</code> 
+<t_low>2</t_low> 
+<t_high>10</t_high> 
+<p_rain>10</p_rain> 
+<s_s>06:43</s_s>
+<s_r>18:41</s_r>
+</Week_3>
+<Week_4>
+<date>2013/03/17 일</date> 
+<wea>구름많음</wea> 
+<code>03</code> 
+<t_low>3</t_low> 
+<t_high>11</t_high> 
+<p_rain>20</p_rain> 
+<s_s>06:42</s_s>
+<s_r>18:42</s_r>
+</Week_4>
+<Week_5>
+<date>2013/03/18 월</date> 
+<wea>구름많음</wea> 
+<code>03</code> 
+<t_low>3</t_low> 
+<t_high>10</t_high> 
+<p_rain>20</p_rain> 
+<s_s>06:40</s_s>
+<s_r>18:43</s_r>
+</Week_5>
+<Week_6>
+<date>2013/03/19 화</date> 
+<wea>구름많음</wea> 
+<code>03</code> 
+<t_low>4</t_low> 
+<t_high>9</t_high> 
+<p_rain>20</p_rain> 
+<s_s>06:39</s_s>
+<s_r>18:44</s_r>
+</Week_6>
+<Week_7>
+<date>2013/03/20 수</date> 
+<wea>구름많음</wea> 
+<code>03</code> 
+<t_low>0</t_low> 
+<t_high>10</t_high> 
+<p_rain>20</p_rain> 
+<s_s>06:37</s_s>
+<s_r>18:45</s_r>
+</Week_7>
+<j_n_1>우산</j_n_1>
+<j_j_1>10</j_j_1> 
+<j_t_1>우산은 잊으세요.</j_t_1> 
+<j_n_2>세차</j_n_2>
+<j_j_2>80</j_j_2> 
+<j_t_2>세차하기 좋은 날이에요.</j_t_2> 
+<j_n_3>나들이</j_n_3>
+<j_j_3>50</j_j_3> 
+<j_t_3>나들이 하기 별로에요.</j_t_3> 
+<j_n_4>자외선</j_n_4>
+<j_j_4>30</j_j_4> 
+<j_t_4>햇볕에 피부가 상할 수 있어요.</j_t_4> 
+<j_n_5>빨래</j_n_5>
+<j_j_5>80</j_j_5> 
+<j_t_5>빨래하기 좋은 날이에요.</j_t_5> 
+</Info>
+</PopupWeather>

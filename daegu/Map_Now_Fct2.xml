@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PopupWeather>
+  <Info area="인천" time="2013-03-13 11:40">
+    <Area>인천</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>흐림</wea>
+      <code>04</code>
+      <n_t>6</n_t>
+      <t_min>4</t_min>
+      <t_max>5</t_max>
+      <p_rain>30</p_rain>
+    </Daily>
+  </Info>
+  <Info area="서울" time="2013-03-13 11:40">
+    <Area>서울</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>흐림</wea>
+      <code>04</code>
+      <n_t>6</n_t>
+      <t_min>4</t_min>
+      <t_max>5</t_max>
+      <p_rain>30</p_rain>
+    </Daily>
+  </Info>
+  <Info area="춘천" time="2013-03-13 11:40">
+    <Area>춘천</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>7</n_t>
+      <t_min>4</t_min>
+      <t_max>4</t_max>
+      <p_rain>70</p_rain>
+    </Daily>
+  </Info>
+  <Info area="강릉" time="2013-03-13 11:40">
+    <Area>강릉</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>2</n_t>
+      <t_min>4</t_min>
+      <t_max>4</t_max>
+      <p_rain>90</p_rain>
+    </Daily>
+  </Info>
+  <Info area="울릉도" time="2013-03-13 11:40">
+    <Area>울릉도</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>3</n_t>
+      <t_min>5</t_min>
+      <t_max>6</t_max>
+      <p_rain>90</p_rain>
+    </Daily>
+  </Info>
+  <Info area="대전" time="2013-03-13 11:40">
+    <Area>대전</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>5</n_t>
+      <t_min>6</t_min>
+      <t_max>9</t_max>
+      <p_rain>70</p_rain>
+    </Daily>
+  </Info>
+  <Info area="청주" time="2013-03-13 11:40">
+    <Area>청주</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>5</n_t>
+      <t_min>6</t_min>
+      <t_max>8</t_max>
+      <p_rain>70</p_rain>
+    </Daily>
+  </Info>
+  <Info area="제주" time="2013-03-13 11:40">
+    <Area>제주</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>9</n_t>
+      <t_min>10</t_min>
+      <t_max>15</t_max>
+      <p_rain>80</p_rain>
+    </Daily>
+  </Info>
+  <Info area="전주" time="2013-03-13 11:40">
+    <Area>전주</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>6</n_t>
+      <t_min>8</t_min>
+      <t_max>10</t_max>
+      <p_rain>80</p_rain>
+    </Daily>
+  </Info>
+  <Info area="광주" time="2013-03-13 11:40">
+    <Area>광주</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>6</n_t>
+      <t_min>8</t_min>
+      <t_max>9</t_max>
+      <p_rain>60</p_rain>
+    </Daily>
+  </Info>
+  <Info area="부산" time="2013-03-13 11:40">
+    <Area>부산</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>11</n_t>
+      <t_min>14</t_min>
+      <t_max>14</t_max>
+      <p_rain>80</p_rain>
+    </Daily>
+  </Info>
+  <Info area="대구" time="2013-03-13 11:40">
+    <Area>대구</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>12</n_t>
+      <t_min>12</t_min>
+      <t_max>13</t_max>
+      <p_rain>80</p_rain>
+    </Daily>
+  </Info>
+  <Info area="창원" time="2013-03-13 11:40">
+    <Area>창원</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>13</n_t>
+      <t_min>13</t_min>
+      <t_max>14</t_max>
+      <p_rain>74</p_rain>
+    </Daily>
+  </Info>
+  <Info area="울산" time="2013-03-13 11:40">
+    <Area>울산</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>8</n_t>
+      <t_min>13</t_min>
+      <t_max>14</t_max>
+      <p_rain>90</p_rain>
+    </Daily>
+  </Info>
+  <Info area="포항" time="2013-03-13 11:40">
+    <Area>포항</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>7</n_t>
+      <t_min>13</t_min>
+      <t_max>13</t_max>
+      <p_rain>90</p_rain>
+    </Daily>
+  </Info>
+  <Info area="목포" time="2013-03-13 11:40">
+    <Area>목포</Area>
+    <Daily>
+      <date>2013/03/13 수</date>
+      <wea>비</wea>
+      <code>09</code>
+      <n_t>4</n_t>
+      <t_min>7</t_min>
+      <t_max>9</t_max>
+      <p_rain>60</p_rain>
+    </Daily>
+  </Info>
+</PopupWeather>
