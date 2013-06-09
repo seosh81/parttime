@@ -22,14 +22,25 @@
 	$img_dir = '/Users/seosh81/project/parttime/letsout/temp_images/';
 
 	$naver_id_pattern = "/http\:\/\/blog.naver.com\/(.+)\?/";
+    $naver_id_different_pattern = "/http\:\/\/blog.naver.com\/(.+)\//";
 	$post_id_pattern = "/logNo\=(\d+)/";
+    $post_id_different_pattern = "/(\d+)$/";
+
 	$str = "http://blog.naver.com/iaan17?Redirect=Log&logNo=140170481366&from=section";
 	$str = "http://blog.naver.com/kohaku3533?Redirect=Log&logNo=140190608270&from=section";
-
+    $str = "http://blog.naver.com/bhhaus/50172770535";
 	preg_match($naver_id_pattern, $str, $naver_id, PREG_OFFSET_CAPTURE);
 	preg_match($post_id_pattern, $str, $post_id, PREG_OFFSET_CAPTURE);
 	$naver_id = $naver_id[1][0];
 	$post_id = $post_id[1][0];
+    if ($naver_id == '') {
+	    preg_match($naver_id_different_pattern, $str, $naver_id, PREG_OFFSET_CAPTURE);
+        $naver_id = $naver_id[1][0];
+	    preg_match($post_id_different_pattern, $str, $post_id, PREG_OFFSET_CAPTURE);
+        $post_id = $post_id[1][0];
+    }
+    echo $naver_id . ' ' . $post_id;
+    exit;
 
 	// echo $naver_id . $post_id;
 
